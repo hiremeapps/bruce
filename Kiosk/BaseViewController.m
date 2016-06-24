@@ -8,6 +8,8 @@
 
 #import "BaseViewController.h"
 #import "LoginViewController.h"
+#import "Configs.h"
+#import "UIColor+Masjidpay.h"
 @interface BaseViewController ()
 
 @end
@@ -16,9 +18,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [super viewWillAppear:YES];
-    LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
-    [self.navigationController presentViewController:loginVC animated:YES completion:nil];
+    //Change navigation bar appearance
+    [[UINavigationBar appearance] setBarTintColor:[UIColor mp_greenColor]];
+    
+    // to remove 1 px border below nav bar
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage new]
+                                      forBarPosition:UIBarPositionAny
+                                          barMetrics:UIBarMetricsDefault];
+    
+    //   / [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    
+    NSDictionary *titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor],
+                                          NSFontAttributeName : [UIFont fontWithName:FONT_NAME_BOLD
+                                                                                size:17.0f]};
+    [[UINavigationBar appearance] setTitleTextAttributes:titleTextAttributes];
+    
+    // LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+    //[self.navigationController presentViewController:loginVC animated:YES completion:nil];
     // Do any additional setup after loading the view.
 }
 

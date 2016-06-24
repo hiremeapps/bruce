@@ -4,14 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Kiosk copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>Kiosk.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0005F69D1D1DB3C00060A25B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>000C4DB01D1D837D0069BA6D</key>
 		<dict>
 			<key>primary</key>
