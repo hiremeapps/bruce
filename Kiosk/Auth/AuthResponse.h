@@ -18,5 +18,6 @@
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict;
 - (instancetype)initWithDictionary:(NSDictionary *)dict;
 - (NSDictionary *)dictionaryRepresentation;
-
++ (NSURLSessionDataTask *)userLogin:(NSDictionary *)params CompletionBlock:(void(^)(AuthResponse *response ,NSError *error))completion;
++ (BOOL)userIsLoggedIn;
 @end

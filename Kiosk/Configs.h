@@ -10,8 +10,8 @@ static NSString * const FONT_NAME_DEFAULT   = @"MuseoSans-300";
 static NSString * const FONT_NAME_MEDIUM    = @"MuseoSans-500";
 static NSString * const FONT_NAME_BOLD      = @"MuseoSans-700";
 static NSString * const FONT_NAME_THIN      = @"MuseoSans-100";
-static NSString * const API_STATUS_SUCCESS  = @"Success";
-static NSString * const API_STATUS_ERROR    = @"Error";
+static NSString * const API_STATUS_SUCCESS  = @"SUCCESS";
+static NSString * const API_STATUS_ERROR    = @"ERROR";
 static const float FONT_SIZE_DEFAULT        = 15.0f;
 //Positioning
 static const float STATUS_BAR_HEIGHT = 20.0f;
@@ -53,6 +53,7 @@ static NSString * const PREFS_CREDENTIALS_USER_PHONE_NUMBER = @"prefs.credential
 static NSString * const PREFS_CREDENTIALS_USER_ID = @"prefs.credentials.user.id";
 static NSString * const PREFS_CREDENTIALS_USER_NAME = @"prefs.credentials.user.name";
 
+
 ///tracking
 
 static NSString *ACTION_APP_OPEN                          = @"app_activated";
@@ -63,6 +64,7 @@ static NSString *ACTION_MASJID_DONATION                         = @"app_donation
 static NSString *ACTION_APP_PAUSED                        = @"app_paused";
 static NSString *ADJUST_APP_TOKEN                         = @"8d9srrtl39db";
 static NSString *ACTION_TYPE                              = @"action_type";
+
 
 
 /**

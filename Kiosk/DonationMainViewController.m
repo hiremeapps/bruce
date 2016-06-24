@@ -8,6 +8,7 @@
 
 #import "DonationMainViewController.h"
 #import "DonationViewController.h"
+#import "Configs.h"
 @interface DonationMainViewController ()
 
 @end
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBarHidden = YES;
+    self.submerchantNameLabel.text = [[NSUserDefaults standardUserDefaults] objectForKey:PREFS_CREDENTIALS_USER_NAME];
     // Do any additional setup after loading the view.
 }
 

@@ -466,6 +466,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="H2o-dX-G3F"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="submerchantNameLabel" destination="FGK-0v-S9c" id="5LT-t4-iCC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mlg-Eo-bvk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

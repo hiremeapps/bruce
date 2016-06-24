@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "Configs.h"
 #import "UIColor+Masjidpay.h"
+#import <AFNetworkActivityLogger/AFNetworkActivityLogger.h>
 @interface AppDelegate ()
 
 @end
@@ -18,7 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
+#ifdef STAGING
+    [[AFNetworkActivityLogger sharedLogger] startLogging];
+    [AFNetworkActivityLogger sharedLogger].level = AFLoggerLevelDebug;
+#endif
     return YES;
 }
 

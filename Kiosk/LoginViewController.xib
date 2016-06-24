@@ -16,6 +16,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
             <connections>
+                <outlet property="passwordTextField" destination="qt7-as-HNx" id="8t4-Yv-zPa"/>
+                <outlet property="userNameTextField" destination="pa2-Xo-DWf" id="npm-8g-szC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -60,6 +62,9 @@
                             <state key="normal" title="LOGIN">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="loginButtonDidTapped:" destination="-1" eventType="touchUpInside" id="YCk-hF-vcE"/>
+                            </connections>
                         </button>
                         <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Select Payment / Donation Type" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qt7-as-HNx" customClass="CustomFormTextField">
                             <rect key="frame" x="362" y="390" width="300" height="45"/>

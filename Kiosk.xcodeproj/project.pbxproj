@@ -72,6 +72,8 @@
 		0005F6C61D1DB3C00060A25B /* MuseoSans_300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6711D1DAE6F0060A25B /* MuseoSans_300.otf */; };
 		0005F6C71D1DB3C00060A25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DBD1D1D837D0069BA6D /* Main.storyboard */; };
 		0005F6C81D1DB3C00060A25B /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F68A1D1DAED20060A25B /* AlertViewController.xib */; };
+		0005F6D31D1DB5640060A25B /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D21D1DB5640060A25B /* APIHelper.m */; };
+		0005F6D41D1DB5640060A25B /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D21D1DB5640060A25B /* APIHelper.m */; };
 		000C4DB61D1D837D0069BA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB51D1D837D0069BA6D /* main.m */; };
 		000C4DB91D1D837D0069BA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB81D1D837D0069BA6D /* AppDelegate.m */; };
 		000C4DBC1D1D837D0069BA6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DBB1D1D837D0069BA6D /* ViewController.m */; };
@@ -159,6 +161,8 @@
 		0005F69B1D1DB2430060A25B /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
 		0005F6CE1D1DB3C00060A25B /* Staging-Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Staging-Kiosk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0005F6CF1D1DB3C00060A25B /* Staging-Kiosk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Staging-Kiosk.plist"; path = "/Users/arie/Documents/work/product/Kiosk/Staging-Kiosk.plist"; sourceTree = "<absolute>"; };
+		0005F6D11D1DB5640060A25B /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };
+		0005F6D21D1DB5640060A25B /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
 		000C4DB11D1D837D0069BA6D /* Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000C4DB51D1D837D0069BA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		000C4DB71D1D837D0069BA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -325,6 +329,15 @@
 			name = Manager;
 			sourceTree = "<group>";
 		};
+		0005F6D01D1DB55C0060A25B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0005F6D11D1DB5640060A25B /* APIHelper.h */,
+				0005F6D21D1DB5640060A25B /* APIHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		000C4DA81D1D837D0069BA6D = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +364,7 @@
 		000C4DB31D1D837D0069BA6D /* Kiosk */ = {
 			isa = PBXGroup;
 			children = (
+				0005F6D01D1DB55C0060A25B /* Helper */,
 				0005F6991D1DB23B0060A25B /* Manager */,
 				0005F6651D1DAE350060A25B /* Common */,
 				0005F6501D1DA9640060A25B /* Model */,
@@ -827,6 +841,7 @@
 				0005F6A41D1DB3C00060A25B /* APIManager.m in Sources */,
 				0005F6A51D1DB3C00060A25B /* AuthData.m in Sources */,
 				0005F6A61D1DB3C00060A25B /* BaseViewController.m in Sources */,
+				0005F6D41D1DB5640060A25B /* APIHelper.m in Sources */,
 				0005F6A71D1DB3C00060A25B /* CurrencyHelper.m in Sources */,
 				0005F6A81D1DB3C00060A25B /* DonationViewController.m in Sources */,
 				0005F6A91D1DB3C00060A25B /* PopupSuperView.m in Sources */,
@@ -862,6 +877,7 @@
 				0005F69C1D1DB2430060A25B /* APIManager.m in Sources */,
 				0005F6611D1DA9780060A25B /* AuthData.m in Sources */,
 				000C4DEE1D1D8A5A0069BA6D /* BaseViewController.m in Sources */,
+				0005F6D31D1DB5640060A25B /* APIHelper.m in Sources */,
 				0005F66D1D1DAE440060A25B /* CurrencyHelper.m in Sources */,
 				000C4DF31D1D8B090069BA6D /* DonationViewController.m in Sources */,
 				0005F6921D1DAEE40060A25B /* PopupSuperView.m in Sources */,

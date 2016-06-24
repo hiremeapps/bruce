@@ -9,5 +9,6 @@
 #import "BaseViewController.h"
 
 @interface DonationMainViewController : BaseViewController
+@property (weak, nonatomic) IBOutlet UILabel *submerchantNameLabel;
 
 @end

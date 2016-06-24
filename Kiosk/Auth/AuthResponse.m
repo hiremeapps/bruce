@@ -7,8 +7,9 @@
 
 #import "AuthResponse.h"
 #import "AuthData.h"
-
-
+#import "APIManager.h"
+#import "APIHelper.h"
+#import "Configs.h"
 NSString *const kAuthResponseStatus = @"status";
 NSString *const kAuthResponseMessage = @"message";
 NSString *const kAuthResponseData = @"data";
@@ -105,6 +106,24 @@ NSString *const kAuthResponseData = @"data";
     
     return copy;
 }
-
-
++ (NSURLSessionDataTask *)userLogin:(NSDictionary *)params CompletionBlock:(void(^)(AuthResponse *response ,NSError *error))completion {
+    return [[APIManager sharedClient] POST:[APIHelper pathAPI:APIHelperRequestTypeKiosLogin] parameters:params success:^(NSURLSessionDataTask *task, id responseObject) {
+        AuthResponse *contentData = [[AuthResponse alloc] initWithDictionary:responseObject];
+        if (completion) {
+            completion(contentData, nil);
+        }
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        if (completion) {
+            completion(nil, error);
+        }
+    }];
+}
++ (BOOL)userIsLoggedIn {
+    if ([[[NSUserDefaults standardUserDefaults] objectForKey:PREFS_CREDENTIALS_USER_TOKEN] length] > 1) {
+        return YES;
+    }
+    else {
+        return NO;
+    }
+}
 @end

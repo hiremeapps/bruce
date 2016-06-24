@@ -9,6 +9,7 @@
 #import "BaseViewController.h"
 #import "LoginViewController.h"
 #import "Configs.h"
+#import "AuthDataModels.h"
 #import "UIColor+Masjidpay.h"
 @interface BaseViewController ()
 
@@ -33,11 +34,16 @@
                                                                                 size:17.0f]};
     [[UINavigationBar appearance] setTitleTextAttributes:titleTextAttributes];
     
-    // LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
-    //[self.navigationController presentViewController:loginVC animated:YES completion:nil];
     // Do any additional setup after loading the view.
 }
-
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    if (![AuthResponse userIsLoggedIn]) {
+        LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+        [self.navigationController presentViewController:loginVC animated:YES completion:nil];
+    }
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
