@@ -15,6 +15,13 @@
 		000C4DC41D1D837D0069BA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC21D1D837D0069BA6D /* LaunchScreen.storyboard */; };
 		000C4DCF1D1D837D0069BA6D /* KioskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DCE1D1D837D0069BA6D /* KioskTests.m */; };
 		000C4DDA1D1D837D0069BA6D /* KioskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DD91D1D837D0069BA6D /* KioskUITests.m */; };
+		000C4DEA1D1D87560069BA6D /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DE91D1D87560069BA6D /* DashboardViewController.m */; };
+		000C4DEE1D1D8A5A0069BA6D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DED1D1D8A5A0069BA6D /* BaseViewController.m */; };
+		000C4DF31D1D8B090069BA6D /* DonationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF11D1D8B090069BA6D /* DonationViewController.m */; };
+		000C4DF41D1D8B090069BA6D /* DonationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DF21D1D8B090069BA6D /* DonationViewController.xib */; };
+		000C4DF91D1D8E710069BA6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF71D1D8E700069BA6D /* MainViewController.m */; };
+		000C4DFA1D1D8E710069BA6D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DF81D1D8E700069BA6D /* MainViewController.xib */; };
+		000C4DFE1D1D90CF0069BA6D /* DonationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		000C4DD51D1D837D0069BA6D /* KioskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KioskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000C4DD91D1D837D0069BA6D /* KioskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KioskUITests.m; sourceTree = "<group>"; };
 		000C4DDB1D1D837D0069BA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000C4DE81D1D87560069BA6D /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		000C4DE91D1D87560069BA6D /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		000C4DEC1D1D8A5A0069BA6D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		000C4DED1D1D8A5A0069BA6D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		000C4DF01D1D8B090069BA6D /* DonationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationViewController.h; sourceTree = "<group>"; };
+		000C4DF11D1D8B090069BA6D /* DonationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationViewController.m; sourceTree = "<group>"; };
+		000C4DF21D1D8B090069BA6D /* DonationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonationViewController.xib; sourceTree = "<group>"; };
+		000C4DF61D1D8E700069BA6D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		000C4DF71D1D8E700069BA6D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		000C4DF81D1D8E700069BA6D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		000C4DFC1D1D90CF0069BA6D /* DonationMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationMainViewController.h; sourceTree = "<group>"; };
+		000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +120,9 @@
 		000C4DB31D1D837D0069BA6D /* Kiosk */ = {
 			isa = PBXGroup;
 			children = (
+				000C4DF51D1D8E5C0069BA6D /* Main */,
+				000C4DEB1D1D8A3F0069BA6D /* Donation */,
+				000C4DE71D1D873A0069BA6D /* DashboardView */,
 				000C4DB71D1D837D0069BA6D /* AppDelegate.h */,
 				000C4DB81D1D837D0069BA6D /* AppDelegate.m */,
 				000C4DBA1D1D837D0069BA6D /* ViewController.h */,
@@ -138,6 +160,55 @@
 				000C4DDB1D1D837D0069BA6D /* Info.plist */,
 			);
 			path = KioskUITests;
+			sourceTree = "<group>";
+		};
+		000C4DE71D1D873A0069BA6D /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				000C4DE81D1D87560069BA6D /* DashboardViewController.h */,
+				000C4DE91D1D87560069BA6D /* DashboardViewController.m */,
+			);
+			name = DashboardView;
+			sourceTree = "<group>";
+		};
+		000C4DEB1D1D8A3F0069BA6D /* Donation */ = {
+			isa = PBXGroup;
+			children = (
+				000C4DFB1D1D90C30069BA6D /* Donation Main */,
+				000C4DEF1D1D8AEE0069BA6D /* Donation VC */,
+				000C4DEC1D1D8A5A0069BA6D /* BaseViewController.h */,
+				000C4DED1D1D8A5A0069BA6D /* BaseViewController.m */,
+			);
+			name = Donation;
+			sourceTree = "<group>";
+		};
+		000C4DEF1D1D8AEE0069BA6D /* Donation VC */ = {
+			isa = PBXGroup;
+			children = (
+				000C4DF01D1D8B090069BA6D /* DonationViewController.h */,
+				000C4DF11D1D8B090069BA6D /* DonationViewController.m */,
+				000C4DF21D1D8B090069BA6D /* DonationViewController.xib */,
+			);
+			name = "Donation VC";
+			sourceTree = "<group>";
+		};
+		000C4DF51D1D8E5C0069BA6D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				000C4DF61D1D8E700069BA6D /* MainViewController.h */,
+				000C4DF71D1D8E700069BA6D /* MainViewController.m */,
+				000C4DF81D1D8E700069BA6D /* MainViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		000C4DFB1D1D90C30069BA6D /* Donation Main */ = {
+			isa = PBXGroup;
+			children = (
+				000C4DFC1D1D90CF0069BA6D /* DonationMainViewController.h */,
+				000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */,
+			);
+			name = "Donation Main";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +316,8 @@
 			files = (
 				000C4DC41D1D837D0069BA6D /* LaunchScreen.storyboard in Resources */,
 				000C4DC11D1D837D0069BA6D /* Assets.xcassets in Resources */,
+				000C4DFA1D1D8E710069BA6D /* MainViewController.xib in Resources */,
+				000C4DF41D1D8B090069BA6D /* DonationViewController.xib in Resources */,
 				000C4DBF1D1D837D0069BA6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +344,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				000C4DBC1D1D837D0069BA6D /* ViewController.m in Sources */,
+				000C4DEE1D1D8A5A0069BA6D /* BaseViewController.m in Sources */,
+				000C4DF31D1D8B090069BA6D /* DonationViewController.m in Sources */,
 				000C4DB91D1D837D0069BA6D /* AppDelegate.m in Sources */,
+				000C4DF91D1D8E710069BA6D /* MainViewController.m in Sources */,
 				000C4DB61D1D837D0069BA6D /* main.m in Sources */,
+				000C4DEA1D1D87560069BA6D /* DashboardViewController.m in Sources */,
+				000C4DFE1D1D90CF0069BA6D /* DonationMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
