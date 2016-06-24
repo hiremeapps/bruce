@@ -22,6 +22,9 @@
 		000C4DF91D1D8E710069BA6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF71D1D8E700069BA6D /* MainViewController.m */; };
 		000C4DFA1D1D8E710069BA6D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DF81D1D8E700069BA6D /* MainViewController.xib */; };
 		000C4DFE1D1D90CF0069BA6D /* DonationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */; };
+		229859AFD72697B575D0CB55 /* libPods-KioskUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */; };
+		56DB0BC553E8D84652B77A64 /* libPods-Kiosk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */; };
+		FFF2C500C04F55306D6EC17B /* libPods-KioskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8847FB81AE0E8E17E70CCC74 /* libPods-KioskTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,15 @@
 		000C4DF81D1D8E700069BA6D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		000C4DFC1D1D90CF0069BA6D /* DonationMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationMainViewController.h; sourceTree = "<group>"; };
 		000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationMainViewController.m; sourceTree = "<group>"; };
+		3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KioskUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F60341A668ABBECCF8DACA /* Pods-Kiosk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiosk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk.release.xcconfig"; sourceTree = "<group>"; };
+		4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kiosk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A3304D7B171E0257B934B /* Pods-Kiosk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiosk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk.debug.xcconfig"; sourceTree = "<group>"; };
+		7703470AB2903CE6896CC467 /* Pods-KioskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests.release.xcconfig"; sourceTree = "<group>"; };
+		82E51D257B0073F726D96228 /* Pods-KioskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KioskUITests/Pods-KioskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8847FB81AE0E8E17E70CCC74 /* libPods-KioskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KioskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5A83920B8F5B761E5F51D5 /* Pods-KioskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E903958EEDA0DD7D26B73FCE /* Pods-KioskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KioskUITests/Pods-KioskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DB0BC553E8D84652B77A64 /* libPods-Kiosk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF2C500C04F55306D6EC17B /* libPods-KioskTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229859AFD72697B575D0CB55 /* libPods-KioskUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +119,8 @@
 				000C4DCD1D1D837D0069BA6D /* KioskTests */,
 				000C4DD81D1D837D0069BA6D /* KioskUITests */,
 				000C4DB21D1D837D0069BA6D /* Products */,
+				C25EE5BD158EFF30D5BE3DBF /* Pods */,
+				0563A845613CD972F9A2BF69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +228,29 @@
 			name = "Donation Main";
 			sourceTree = "<group>";
 		};
+		0563A845613CD972F9A2BF69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */,
+				8847FB81AE0E8E17E70CCC74 /* libPods-KioskTests.a */,
+				3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C25EE5BD158EFF30D5BE3DBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A3304D7B171E0257B934B /* Pods-Kiosk.debug.xcconfig */,
+				42F60341A668ABBECCF8DACA /* Pods-Kiosk.release.xcconfig */,
+				9C5A83920B8F5B761E5F51D5 /* Pods-KioskTests.debug.xcconfig */,
+				7703470AB2903CE6896CC467 /* Pods-KioskTests.release.xcconfig */,
+				E903958EEDA0DD7D26B73FCE /* Pods-KioskUITests.debug.xcconfig */,
+				82E51D257B0073F726D96228 /* Pods-KioskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000C4DDE1D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "Kiosk" */;
 			buildPhases = (
+				5A7ECB4C0E5AFD186ED40A8D /* [CP] Check Pods Manifest.lock */,
 				000C4DAD1D1D837D0069BA6D /* Sources */,
 				000C4DAE1D1D837D0069BA6D /* Frameworks */,
 				000C4DAF1D1D837D0069BA6D /* Resources */,
+				6F4B08D8FE19EA2752141B86 /* [CP] Embed Pods Frameworks */,
+				5D63E1778F96802E6E235807 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000C4DE11D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "KioskTests" */;
 			buildPhases = (
+				3D78E25F5B0CB8E2E4748235 /* [CP] Check Pods Manifest.lock */,
 				000C4DC61D1D837D0069BA6D /* Sources */,
 				000C4DC71D1D837D0069BA6D /* Frameworks */,
 				000C4DC81D1D837D0069BA6D /* Resources */,
+				E304D51B1B68A8B04A099395 /* [CP] Embed Pods Frameworks */,
+				15B58B142450FB0FC9FC3B29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000C4DE41D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "KioskUITests" */;
 			buildPhases = (
+				279615C3FE228D5CC521F33D /* [CP] Check Pods Manifest.lock */,
 				000C4DD11D1D837D0069BA6D /* Sources */,
 				000C4DD21D1D837D0069BA6D /* Frameworks */,
 				000C4DD31D1D837D0069BA6D /* Resources */,
+				65041B4C0B5C2BF673064DDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,6 +385,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B58B142450FB0FC9FC3B29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		279615C3FE228D5CC521F33D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D78E25F5B0CB8E2E4748235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7ECB4C0E5AFD186ED40A8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D63E1778F96802E6E235807 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65041B4C0B5C2BF673064DDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KioskUITests/Pods-KioskUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4B08D8FE19EA2752141B86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E304D51B1B68A8B04A099395 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		000C4DAD1D1D837D0069BA6D /* Sources */ = {
@@ -491,6 +662,7 @@
 		};
 		000C4DDF1D1D837D0069BA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5A3304D7B171E0257B934B /* Pods-Kiosk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kiosk/Info.plist;
@@ -502,6 +674,7 @@
 		};
 		000C4DE01D1D837D0069BA6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F60341A668ABBECCF8DACA /* Pods-Kiosk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kiosk/Info.plist;
@@ -513,6 +686,7 @@
 		};
 		000C4DE21D1D837D0069BA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5A83920B8F5B761E5F51D5 /* Pods-KioskTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KioskTests/Info.plist;
@@ -525,6 +699,7 @@
 		};
 		000C4DE31D1D837D0069BA6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7703470AB2903CE6896CC467 /* Pods-KioskTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KioskTests/Info.plist;
@@ -537,6 +712,7 @@
 		};
 		000C4DE51D1D837D0069BA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E903958EEDA0DD7D26B73FCE /* Pods-KioskUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KioskUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -548,6 +724,7 @@
 		};
 		000C4DE61D1D837D0069BA6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E51D257B0073F726D96228 /* Pods-KioskUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KioskUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -576,6 +753,7 @@
 				000C4DE01D1D837D0069BA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000C4DE11D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "KioskTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +762,7 @@
 				000C4DE31D1D837D0069BA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000C4DE41D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "KioskUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +771,7 @@
 				000C4DE61D1D837D0069BA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
