@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MuseoSans_300.otf">
+            <string>MuseoSans-300</string>
+            <string>MuseoSans-300</string>
+        </mutableArray>
+        <mutableArray key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qgj-mW-Sne">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Icy-oI-jbP">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Other Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pa2-Xo-DWf" customClass="CustomFormTextField">
+                            <rect key="frame" x="362" y="332" width="300" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="SRe-12-xjv"/>
+                                <constraint firstAttribute="width" constant="300" id="yBV-JQ-jPf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="floatingFontSize">
+                                    <integer key="value" value="-1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabelColor">
+                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="noBottomLine" value="NO"/>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="es2-Jv-Xuf">
+                            <rect key="frame" x="362" y="452" width="300" height="41"/>
+                            <color key="backgroundColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="300" id="Aph-tR-oSp"/>
+                                <constraint firstAttribute="height" constant="41" id="nDo-lt-E2a"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="15"/>
+                            <state key="normal" title="LOGIN">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Select Payment / Donation Type" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qt7-as-HNx" customClass="CustomFormTextField">
+                            <rect key="frame" x="362" y="390" width="300" height="45"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="5Y7-My-WZb"/>
+                                <constraint firstAttribute="width" constant="300" id="t63-Ov-DLs"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="15"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="floatingFontSize">
+                                    <integer key="value" value="-1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabelColor">
+                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="noBottomLine" value="NO"/>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="pa2-Xo-DWf" firstAttribute="top" secondItem="Icy-oI-jbP" secondAttribute="top" constant="332" id="85T-nh-Nni"/>
+                        <constraint firstItem="es2-Jv-Xuf" firstAttribute="centerX" secondItem="Icy-oI-jbP" secondAttribute="centerX" id="8HK-ei-QN8"/>
+                        <constraint firstItem="pa2-Xo-DWf" firstAttribute="centerX" secondItem="Icy-oI-jbP" secondAttribute="centerX" id="Awp-NM-opg"/>
+                        <constraint firstItem="qt7-as-HNx" firstAttribute="centerX" secondItem="Icy-oI-jbP" secondAttribute="centerX" id="CD2-EB-Bxc"/>
+                        <constraint firstItem="es2-Jv-Xuf" firstAttribute="top" secondItem="qt7-as-HNx" secondAttribute="bottom" constant="17" id="fMf-xZ-0P8"/>
+                        <constraint firstItem="qt7-as-HNx" firstAttribute="top" secondItem="pa2-Xo-DWf" secondAttribute="bottom" constant="13" id="jSl-CX-Nva"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Icy-oI-jbP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1vR-vi-NLu"/>
+                <constraint firstAttribute="trailing" secondItem="Qgj-mW-Sne" secondAttribute="trailing" id="62p-rl-iFJ"/>
+                <constraint firstAttribute="trailing" secondItem="Icy-oI-jbP" secondAttribute="trailing" id="CGy-OO-cZ9"/>
+                <constraint firstAttribute="bottom" secondItem="Qgj-mW-Sne" secondAttribute="bottom" id="F49-0j-buq"/>
+                <constraint firstItem="Icy-oI-jbP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Qjk-GG-Knp"/>
+                <constraint firstItem="Qgj-mW-Sne" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="U4g-jn-cEc"/>
+                <constraint firstItem="Qgj-mW-Sne" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Z9B-eu-GEe"/>
+                <constraint firstItem="Qgj-mW-Sne" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="cHh-bk-5jI"/>
+                <constraint firstItem="Qgj-mW-Sne" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="eZn-aS-t7T"/>
+                <constraint firstItem="Icy-oI-jbP" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="jIU-aT-zFL"/>
+                <constraint firstAttribute="bottom" secondItem="Icy-oI-jbP" secondAttribute="bottom" id="r9e-cH-a2c"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+        </view>
+    </objects>
+</document>

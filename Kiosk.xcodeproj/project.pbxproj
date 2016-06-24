@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0005F64E1D1DA83B0060A25B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F64C1D1DA83B0060A25B /* LoginViewController.m */; };
+		0005F64F1D1DA83B0060A25B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F64D1D1DA83B0060A25B /* LoginViewController.xib */; };
+		0005F65F1D1DA9780060A25B /* AuthActivateEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6531D1DA9780060A25B /* AuthActivateEmail.m */; };
+		0005F6601D1DA9780060A25B /* AuthAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6551D1DA9780060A25B /* AuthAddress.m */; };
+		0005F6611D1DA9780060A25B /* AuthData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6571D1DA9780060A25B /* AuthData.m */; };
+		0005F6621D1DA9780060A25B /* AuthGeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65A1D1DA9780060A25B /* AuthGeoLocation.m */; };
+		0005F6631D1DA9780060A25B /* AuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65C1D1DA9780060A25B /* AuthResponse.m */; };
+		0005F6641D1DA9780060A25B /* AuthStripe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65E1D1DA9780060A25B /* AuthStripe.m */; };
+		0005F6681D1DAE3C0060A25B /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6671D1DAE3C0060A25B /* Util.m */; };
+		0005F66D1D1DAE440060A25B /* CurrencyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F66A1D1DAE440060A25B /* CurrencyHelper.m */; };
+		0005F6741D1DAE6F0060A25B /* MuseoSans_100.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6701D1DAE6F0060A25B /* MuseoSans_100.otf */; };
+		0005F6751D1DAE6F0060A25B /* MuseoSans_300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6711D1DAE6F0060A25B /* MuseoSans_300.otf */; };
+		0005F6761D1DAE6F0060A25B /* MuseoSans_700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6721D1DAE6F0060A25B /* MuseoSans_700.otf */; };
+		0005F6771D1DAE6F0060A25B /* MuseoSans_500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6731D1DAE6F0060A25B /* MuseoSans_500.otf */; };
+		0005F67B1D1DAE960060A25B /* UIColor+Masjidpay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F67A1D1DAE960060A25B /* UIColor+Masjidpay.m */; };
+		0005F67E1D1DAEAC0060A25B /* SeparatorLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F67D1D1DAEAC0060A25B /* SeparatorLineView.m */; };
+		0005F6811D1DAEB40060A25B /* CustomFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6801D1DAEB40060A25B /* CustomFormTextField.m */; };
+		0005F6841D1DAEBF0060A25B /* PaddedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6831D1DAEBF0060A25B /* PaddedLabel.m */; };
+		0005F6871D1DAEC70060A25B /* UINavigationController+ModalOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6861D1DAEC70060A25B /* UINavigationController+ModalOverlay.m */; };
+		0005F68B1D1DAED20060A25B /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6891D1DAED20060A25B /* AlertViewController.m */; };
+		0005F68C1D1DAED20060A25B /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F68A1D1DAED20060A25B /* AlertViewController.xib */; };
+		0005F68F1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F68E1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m */; };
+		0005F6921D1DAEE40060A25B /* PopupSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6911D1DAEE40060A25B /* PopupSuperView.m */; };
+		0005F6951D1DAEEB0060A25B /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6941D1DAEEB0060A25B /* TransparentView.m */; };
+		0005F6981D1DAEFA0060A25B /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6971D1DAEFA0060A25B /* NSString+Validation.m */; };
 		000C4DB61D1D837D0069BA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB51D1D837D0069BA6D /* main.m */; };
 		000C4DB91D1D837D0069BA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB81D1D837D0069BA6D /* AppDelegate.m */; };
 		000C4DBC1D1D837D0069BA6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DBB1D1D837D0069BA6D /* ViewController.m */; };
@@ -20,7 +45,6 @@
 		000C4DF31D1D8B090069BA6D /* DonationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF11D1D8B090069BA6D /* DonationViewController.m */; };
 		000C4DF41D1D8B090069BA6D /* DonationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DF21D1D8B090069BA6D /* DonationViewController.xib */; };
 		000C4DF91D1D8E710069BA6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF71D1D8E700069BA6D /* MainViewController.m */; };
-		000C4DFA1D1D8E710069BA6D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DF81D1D8E700069BA6D /* MainViewController.xib */; };
 		000C4DFE1D1D90CF0069BA6D /* DonationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */; };
 		229859AFD72697B575D0CB55 /* libPods-KioskUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */; };
 		56DB0BC553E8D84652B77A64 /* libPods-Kiosk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */; };
@@ -45,6 +69,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0005F64B1D1DA83B0060A25B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0005F64C1D1DA83B0060A25B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0005F64D1D1DA83B0060A25B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0005F6521D1DA9780060A25B /* AuthActivateEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthActivateEmail.h; sourceTree = "<group>"; };
+		0005F6531D1DA9780060A25B /* AuthActivateEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthActivateEmail.m; sourceTree = "<group>"; };
+		0005F6541D1DA9780060A25B /* AuthAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthAddress.h; sourceTree = "<group>"; };
+		0005F6551D1DA9780060A25B /* AuthAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthAddress.m; sourceTree = "<group>"; };
+		0005F6561D1DA9780060A25B /* AuthData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthData.h; sourceTree = "<group>"; };
+		0005F6571D1DA9780060A25B /* AuthData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthData.m; sourceTree = "<group>"; };
+		0005F6581D1DA9780060A25B /* AuthDataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthDataModels.h; sourceTree = "<group>"; };
+		0005F6591D1DA9780060A25B /* AuthGeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthGeoLocation.h; sourceTree = "<group>"; };
+		0005F65A1D1DA9780060A25B /* AuthGeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthGeoLocation.m; sourceTree = "<group>"; };
+		0005F65B1D1DA9780060A25B /* AuthResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthResponse.h; sourceTree = "<group>"; };
+		0005F65C1D1DA9780060A25B /* AuthResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthResponse.m; sourceTree = "<group>"; };
+		0005F65D1D1DA9780060A25B /* AuthStripe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthStripe.h; sourceTree = "<group>"; };
+		0005F65E1D1DA9780060A25B /* AuthStripe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthStripe.m; sourceTree = "<group>"; };
+		0005F6661D1DAE3C0060A25B /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		0005F6671D1DAE3C0060A25B /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		0005F6691D1DAE440060A25B /* CurrencyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyHelper.h; sourceTree = "<group>"; };
+		0005F66A1D1DAE440060A25B /* CurrencyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyHelper.m; sourceTree = "<group>"; };
+		0005F6701D1DAE6F0060A25B /* MuseoSans_100.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_100.otf; sourceTree = "<group>"; };
+		0005F6711D1DAE6F0060A25B /* MuseoSans_300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_300.otf; sourceTree = "<group>"; };
+		0005F6721D1DAE6F0060A25B /* MuseoSans_700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_700.otf; sourceTree = "<group>"; };
+		0005F6731D1DAE6F0060A25B /* MuseoSans_500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_500.otf; sourceTree = "<group>"; };
+		0005F6781D1DAE8C0060A25B /* Configs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configs.h; sourceTree = "<group>"; };
+		0005F6791D1DAE960060A25B /* UIColor+Masjidpay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Masjidpay.h"; sourceTree = "<group>"; };
+		0005F67A1D1DAE960060A25B /* UIColor+Masjidpay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Masjidpay.m"; sourceTree = "<group>"; };
+		0005F67C1D1DAEAC0060A25B /* SeparatorLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorLineView.h; sourceTree = "<group>"; };
+		0005F67D1D1DAEAC0060A25B /* SeparatorLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorLineView.m; sourceTree = "<group>"; };
+		0005F67F1D1DAEB40060A25B /* CustomFormTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFormTextField.h; sourceTree = "<group>"; };
+		0005F6801D1DAEB40060A25B /* CustomFormTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFormTextField.m; sourceTree = "<group>"; };
+		0005F6821D1DAEBF0060A25B /* PaddedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddedLabel.h; sourceTree = "<group>"; };
+		0005F6831D1DAEBF0060A25B /* PaddedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddedLabel.m; sourceTree = "<group>"; };
+		0005F6851D1DAEC70060A25B /* UINavigationController+ModalOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ModalOverlay.h"; sourceTree = "<group>"; };
+		0005F6861D1DAEC70060A25B /* UINavigationController+ModalOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ModalOverlay.m"; sourceTree = "<group>"; };
+		0005F6881D1DAED20060A25B /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		0005F6891D1DAED20060A25B /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		0005F68A1D1DAED20060A25B /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		0005F68D1D1DAEDE0060A25B /* UIViewController+ModalOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ModalOverlay.h"; sourceTree = "<group>"; };
+		0005F68E1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ModalOverlay.m"; sourceTree = "<group>"; };
+		0005F6901D1DAEE40060A25B /* PopupSuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupSuperView.h; sourceTree = "<group>"; };
+		0005F6911D1DAEE40060A25B /* PopupSuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupSuperView.m; sourceTree = "<group>"; };
+		0005F6931D1DAEEB0060A25B /* TransparentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentView.h; sourceTree = "<group>"; };
+		0005F6941D1DAEEB0060A25B /* TransparentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentView.m; sourceTree = "<group>"; };
+		0005F6961D1DAEFA0060A25B /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		0005F6971D1DAEFA0060A25B /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
 		000C4DB11D1D837D0069BA6D /* Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000C4DB51D1D837D0069BA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		000C4DB71D1D837D0069BA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,7 +140,6 @@
 		000C4DF21D1D8B090069BA6D /* DonationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonationViewController.xib; sourceTree = "<group>"; };
 		000C4DF61D1D8E700069BA6D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		000C4DF71D1D8E700069BA6D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		000C4DF81D1D8E700069BA6D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		000C4DFC1D1D90CF0069BA6D /* DonationMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationMainViewController.h; sourceTree = "<group>"; };
 		000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationMainViewController.m; sourceTree = "<group>"; };
 		3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KioskUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +181,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0005F64A1D1DA8290060A25B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0005F64B1D1DA83B0060A25B /* LoginViewController.h */,
+				0005F64C1D1DA83B0060A25B /* LoginViewController.m */,
+				0005F64D1D1DA83B0060A25B /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		0005F6501D1DA9640060A25B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0005F6511D1DA9780060A25B /* Auth */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0005F6511D1DA9780060A25B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0005F6521D1DA9780060A25B /* AuthActivateEmail.h */,
+				0005F6531D1DA9780060A25B /* AuthActivateEmail.m */,
+				0005F6541D1DA9780060A25B /* AuthAddress.h */,
+				0005F6551D1DA9780060A25B /* AuthAddress.m */,
+				0005F6561D1DA9780060A25B /* AuthData.h */,
+				0005F6571D1DA9780060A25B /* AuthData.m */,
+				0005F6581D1DA9780060A25B /* AuthDataModels.h */,
+				0005F6591D1DA9780060A25B /* AuthGeoLocation.h */,
+				0005F65A1D1DA9780060A25B /* AuthGeoLocation.m */,
+				0005F65B1D1DA9780060A25B /* AuthResponse.h */,
+				0005F65C1D1DA9780060A25B /* AuthResponse.m */,
+				0005F65D1D1DA9780060A25B /* AuthStripe.h */,
+				0005F65E1D1DA9780060A25B /* AuthStripe.m */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0005F6651D1DAE350060A25B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0005F6961D1DAEFA0060A25B /* NSString+Validation.h */,
+				0005F6971D1DAEFA0060A25B /* NSString+Validation.m */,
+				0005F6931D1DAEEB0060A25B /* TransparentView.h */,
+				0005F6941D1DAEEB0060A25B /* TransparentView.m */,
+				0005F6901D1DAEE40060A25B /* PopupSuperView.h */,
+				0005F6911D1DAEE40060A25B /* PopupSuperView.m */,
+				0005F68D1D1DAEDE0060A25B /* UIViewController+ModalOverlay.h */,
+				0005F68E1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m */,
+				0005F6881D1DAED20060A25B /* AlertViewController.h */,
+				0005F6891D1DAED20060A25B /* AlertViewController.m */,
+				0005F68A1D1DAED20060A25B /* AlertViewController.xib */,
+				0005F6851D1DAEC70060A25B /* UINavigationController+ModalOverlay.h */,
+				0005F6861D1DAEC70060A25B /* UINavigationController+ModalOverlay.m */,
+				0005F6821D1DAEBF0060A25B /* PaddedLabel.h */,
+				0005F6831D1DAEBF0060A25B /* PaddedLabel.m */,
+				0005F67F1D1DAEB40060A25B /* CustomFormTextField.h */,
+				0005F6801D1DAEB40060A25B /* CustomFormTextField.m */,
+				0005F67C1D1DAEAC0060A25B /* SeparatorLineView.h */,
+				0005F67D1D1DAEAC0060A25B /* SeparatorLineView.m */,
+				0005F6791D1DAE960060A25B /* UIColor+Masjidpay.h */,
+				0005F67A1D1DAE960060A25B /* UIColor+Masjidpay.m */,
+				0005F6781D1DAE8C0060A25B /* Configs.h */,
+				0005F66F1D1DAE5C0060A25B /* Font */,
+				0005F6691D1DAE440060A25B /* CurrencyHelper.h */,
+				0005F66A1D1DAE440060A25B /* CurrencyHelper.m */,
+				0005F6661D1DAE3C0060A25B /* Util.h */,
+				0005F6671D1DAE3C0060A25B /* Util.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		0005F66F1D1DAE5C0060A25B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0005F6701D1DAE6F0060A25B /* MuseoSans_100.otf */,
+				0005F6711D1DAE6F0060A25B /* MuseoSans_300.otf */,
+				0005F6721D1DAE6F0060A25B /* MuseoSans_700.otf */,
+				0005F6731D1DAE6F0060A25B /* MuseoSans_500.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 		000C4DA81D1D837D0069BA6D = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +289,9 @@
 		000C4DB31D1D837D0069BA6D /* Kiosk */ = {
 			isa = PBXGroup;
 			children = (
+				0005F6651D1DAE350060A25B /* Common */,
+				0005F6501D1DA9640060A25B /* Model */,
+				0005F64A1D1DA8290060A25B /* Login */,
 				000C4DF51D1D8E5C0069BA6D /* Main */,
 				000C4DEB1D1D8A3F0069BA6D /* Donation */,
 				000C4DE71D1D873A0069BA6D /* DashboardView */,
@@ -214,7 +369,6 @@
 			children = (
 				000C4DF61D1D8E700069BA6D /* MainViewController.h */,
 				000C4DF71D1D8E700069BA6D /* MainViewController.m */,
-				000C4DF81D1D8E700069BA6D /* MainViewController.xib */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -362,11 +516,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0005F6741D1DAE6F0060A25B /* MuseoSans_100.otf in Resources */,
+				0005F64F1D1DA83B0060A25B /* LoginViewController.xib in Resources */,
 				000C4DC41D1D837D0069BA6D /* LaunchScreen.storyboard in Resources */,
+				0005F6771D1DAE6F0060A25B /* MuseoSans_500.otf in Resources */,
 				000C4DC11D1D837D0069BA6D /* Assets.xcassets in Resources */,
-				000C4DFA1D1D8E710069BA6D /* MainViewController.xib in Resources */,
+				0005F6761D1DAE6F0060A25B /* MuseoSans_700.otf in Resources */,
 				000C4DF41D1D8B090069BA6D /* DonationViewController.xib in Resources */,
+				0005F6751D1DAE6F0060A25B /* MuseoSans_300.otf in Resources */,
 				000C4DBF1D1D837D0069BA6D /* Main.storyboard in Resources */,
+				0005F68C1D1DAED20060A25B /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,14 +673,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0005F6631D1DA9780060A25B /* AuthResponse.m in Sources */,
+				0005F6871D1DAEC70060A25B /* UINavigationController+ModalOverlay.m in Sources */,
+				0005F6981D1DAEFA0060A25B /* NSString+Validation.m in Sources */,
 				000C4DBC1D1D837D0069BA6D /* ViewController.m in Sources */,
+				0005F6611D1DA9780060A25B /* AuthData.m in Sources */,
 				000C4DEE1D1D8A5A0069BA6D /* BaseViewController.m in Sources */,
+				0005F66D1D1DAE440060A25B /* CurrencyHelper.m in Sources */,
 				000C4DF31D1D8B090069BA6D /* DonationViewController.m in Sources */,
+				0005F6921D1DAEE40060A25B /* PopupSuperView.m in Sources */,
+				0005F65F1D1DA9780060A25B /* AuthActivateEmail.m in Sources */,
+				0005F67B1D1DAE960060A25B /* UIColor+Masjidpay.m in Sources */,
 				000C4DB91D1D837D0069BA6D /* AppDelegate.m in Sources */,
+				0005F6601D1DA9780060A25B /* AuthAddress.m in Sources */,
 				000C4DF91D1D8E710069BA6D /* MainViewController.m in Sources */,
+				0005F6641D1DA9780060A25B /* AuthStripe.m in Sources */,
+				0005F64E1D1DA83B0060A25B /* LoginViewController.m in Sources */,
 				000C4DB61D1D837D0069BA6D /* main.m in Sources */,
+				0005F6841D1DAEBF0060A25B /* PaddedLabel.m in Sources */,
+				0005F6811D1DAEB40060A25B /* CustomFormTextField.m in Sources */,
 				000C4DEA1D1D87560069BA6D /* DashboardViewController.m in Sources */,
 				000C4DFE1D1D90CF0069BA6D /* DonationMainViewController.m in Sources */,
+				0005F6621D1DA9780060A25B /* AuthGeoLocation.m in Sources */,
+				0005F6681D1DAE3C0060A25B /* Util.m in Sources */,
+				0005F67E1D1DAEAC0060A25B /* SeparatorLineView.m in Sources */,
+				0005F68F1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m in Sources */,
+				0005F6951D1DAEEB0060A25B /* TransparentView.m in Sources */,
+				0005F68B1D1DAED20060A25B /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

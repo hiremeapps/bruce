@@ -24,10 +24,10 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -39,7 +39,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0g6-hU-Dh8">
                                 <rect key="frame" x="0.0" y="0.0" width="512" height="768"/>
                                 <connections>
-                                    <segue destination="Atg-5a-X9O" kind="embed" id="fWH-D9-FRj"/>
+                                    <segue destination="ZbE-Ms-vjx" kind="embed" id="0Ij-e1-rGY"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vr9-N2-hTe">
@@ -77,6 +77,22 @@
             </objects>
             <point key="canvasLocation" x="332" y="388"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GW3-sv-rUs">
+            <objects>
+                <navigationController id="ZbE-Ms-vjx" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vK5-p1-vOU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Atg-5a-X9O" kind="relationship" relationship="rootViewController" id="qON-IP-U4P"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5G2-AW-bhC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="1492"/>
+        </scene>
         <!--Dashboard View Controller-->
         <scene sceneID="auH-xl-6US">
             <objects>
@@ -90,7 +106,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTO-PJ-Poi">
-                                <rect key="frame" x="0.0" y="0.0" width="512" height="768"/>
+                                <rect key="frame" x="0.0" y="44" width="512" height="724"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
                         </subviews>
@@ -102,13 +118,14 @@
                             <constraint firstItem="MTO-PJ-Poi" firstAttribute="width" secondItem="pTH-yT-Xyv" secondAttribute="width" id="zK3-4g-MwV"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="mj7-i0-Ilx"/>
                     <connections>
                         <outlet property="webview" destination="MTO-PJ-Poi" id="uhy-hp-bOB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qis-Jl-C69" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="1431"/>
+            <point key="canvasLocation" x="76" y="2448"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tKu-wf-XDm">
