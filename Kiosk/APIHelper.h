@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 typedef NS_ENUM(NSInteger, APIHelperRequestType) {
-    APIHelperRequestTypeKiosLogin
+    APIHelperRequestTypeKiosLogin,
+    APIHelperRequestTypeKioskPaymentList,
+    APIHelperRequestTypeKioskProjectList
 };
 @interface APIHelper : NSObject
 + (NSString *)pathAPI:(APIHelperRequestType)requestType;

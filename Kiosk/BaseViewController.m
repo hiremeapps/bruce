@@ -19,36 +19,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //Change navigation bar appearance
-    [[UINavigationBar appearance] setBarTintColor:[UIColor mp_greenColor]];
-    
-    // to remove 1 px border below nav bar
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage new]
-                                      forBarPosition:UIBarPositionAny
-                                          barMetrics:UIBarMetricsDefault];
-    
-    //   / [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
-    
-    NSDictionary *titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor],
-                                          NSFontAttributeName : [UIFont fontWithName:FONT_NAME_BOLD
-                                                                                size:17.0f]};
-    [[UINavigationBar appearance] setTitleTextAttributes:titleTextAttributes];
-    
-    // Do any additional setup after loading the view.
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:YES];
-    if (![AuthResponse userIsLoggedIn]) {
-        LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
-        [self.navigationController presentViewController:loginVC animated:YES completion:nil];
-    }
-    
-}
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self showLogin];
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+
+- (void)showLogin {
+    if (![AuthResponse userIsLoggedIn]) {
+        LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+        [self presentViewController:loginVC animated:YES completion:nil];
+    }
+}
 /*
  #pragma mark - Navigation
  

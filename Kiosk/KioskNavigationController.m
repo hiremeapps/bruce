@@ -1,29 +1,22 @@
 //
-//  MainViewController.m
+//  KioskNavigationController.m
 //  Kiosk
 //
-//  Created by Arie on 6/24/16.
+//  Created by Arie on 6/26/16.
 //  Copyright © 2016 Arie. All rights reserved.
 //
 
-#import "MainViewController.h"
-#import "LoginViewController.h"
-#import "DonationMainViewController.h"
+#import "KioskNavigationController.h"
 #import "UIColor+Masjidpay.h"
-#import "Configs.h"
-#import "AuthDataModels.h"
-@interface MainViewController ()
+@interface KioskNavigationController ()
 
 @end
 
-@implementation MainViewController
+@implementation KioskNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"MASJIDPAY KIOSK";
-}
-
-- (void)viewWillAppear:(BOOL)animated {
+    self.navigationBar.translucent = NO;
 }
 
 - (void)didReceiveMemoryWarning {

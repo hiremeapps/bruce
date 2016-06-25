@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MuseoSans_500.otf">
+            <string>MuseoSans-500</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DonationListViewController">
+            <connections>
+                <outlet property="view" destination="CZ0-KQ-dOo" id="Dbq-NV-YpU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="CZ0-KQ-dOo" customClass="DonationView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ldK-SB-n75">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mgS-AB-Fhh">
+                    <rect key="frame" x="0.0" y="684" width="414" height="332"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ixa-3y-Rbw">
+                            <rect key="frame" x="155" y="237" width="105" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Ixa-3y-Rbw" secondAttribute="height" multiplier="1:1" id="JqR-hE-aOZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="14"/>
+                            <inset key="contentEdgeInsets" minX="30" minY="9" maxX="30" maxY="9"/>
+                            <state key="normal" title="CLOSE">
+                                <color key="titleColor" red="0.22352941179999999" green="0.6588235294" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="JqR-hE-aOZ"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="closeButtonDidTapped:" destination="-1" eventType="touchUpInside" id="TEm-Qc-yew"/>
+                            </connections>
+                        </button>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="tJq-n9-FeM">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="216" id="b0g-gf-PeH"/>
+                            </constraints>
+                            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="cDm-cT-wsC"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="Ixa-3y-Rbw" secondAttribute="centerX" id="G6n-Cb-mnz"/>
+                        <constraint firstItem="tJq-n9-FeM" firstAttribute="top" secondItem="mgS-AB-Fhh" secondAttribute="top" id="Qbs-Z4-BaQ"/>
+                        <constraint firstAttribute="bottom" secondItem="Ixa-3y-Rbw" secondAttribute="bottom" constant="60" id="Txg-QP-ndk"/>
+                        <constraint firstAttribute="trailing" secondItem="tJq-n9-FeM" secondAttribute="trailing" id="ule-II-DCL"/>
+                        <constraint firstItem="Ixa-3y-Rbw" firstAttribute="top" secondItem="tJq-n9-FeM" secondAttribute="bottom" constant="21" id="yop-UM-4kR"/>
+                        <constraint firstItem="tJq-n9-FeM" firstAttribute="leading" secondItem="mgS-AB-Fhh" secondAttribute="leading" id="z5d-mk-GMd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mgS-AB-Fhh" secondAttribute="bottom" constant="-280" id="L5T-85-xDk"/>
+                <constraint firstAttribute="bottom" secondItem="ldK-SB-n75" secondAttribute="bottom" id="Xr3-5J-Inp"/>
+                <constraint firstAttribute="trailing" secondItem="ldK-SB-n75" secondAttribute="trailing" id="ZXO-iD-rht"/>
+                <constraint firstAttribute="trailing" secondItem="mgS-AB-Fhh" secondAttribute="trailing" id="g3H-jC-HMD"/>
+                <constraint firstItem="mgS-AB-Fhh" firstAttribute="leading" secondItem="CZ0-KQ-dOo" secondAttribute="leading" id="qZa-94-ePT"/>
+                <constraint firstItem="ldK-SB-n75" firstAttribute="top" secondItem="CZ0-KQ-dOo" secondAttribute="top" id="rLV-Zq-NPf"/>
+                <constraint firstItem="ldK-SB-n75" firstAttribute="leading" secondItem="CZ0-KQ-dOo" secondAttribute="leading" id="wMO-l5-rU0"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <connections>
+                <outlet property="closeButton" destination="Ixa-3y-Rbw" id="HrY-dv-JoF"/>
+                <outlet property="containerView" destination="mgS-AB-Fhh" id="gWO-hN-jTg"/>
+                <outlet property="containerViewBottomConstraint" destination="L5T-85-xDk" id="VtZ-iI-g9L"/>
+                <outlet property="darkBackgroundView" destination="ldK-SB-n75" id="cFD-6N-Ukc"/>
+                <outlet property="donationTableView" destination="tJq-n9-FeM" id="jlf-Jc-XdK"/>
+                <outlet property="tableViewHeightConstraints" destination="b0g-gf-PeH" id="f7l-JX-jfg"/>
+            </connections>
+        </view>
+    </objects>
+</document>

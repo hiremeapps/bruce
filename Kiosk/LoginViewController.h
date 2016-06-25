@@ -6,8 +6,8 @@
 //  Copyright © 2016 Arie. All rights reserved.
 //
 
-#import "BaseViewController.h"
-
-@interface LoginViewController : BaseViewController
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+@interface LoginViewController : UIViewController
 
 @end

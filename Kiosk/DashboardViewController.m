@@ -7,7 +7,7 @@
 //
 
 #import "DashboardViewController.h"
-
+#import "Configs.h"
 @interface DashboardViewController ()
 @property (weak, nonatomic) IBOutlet UIWebView *webview;
 
@@ -17,8 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *fullURL = @"https://app.masjidpay.com";
-    NSURL *url = [NSURL URLWithString:fullURL];
+    self.title = @"Dashboard";
+    
+    NSString *dasboardUri = [NSString stringWithFormat:@"%@/kiosk/dashboard/%@",BASE_PAYMENT_URL,[[NSUserDefaults standardUserDefaults] objectForKey:PREFS_CREDENTIALS_USER_ID]];
+    NSURL *url = [NSURL URLWithString:dasboardUri];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [self.webview loadRequest:requestObj];
     // Do any additional setup after loading the view.
@@ -28,15 +30,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 @end

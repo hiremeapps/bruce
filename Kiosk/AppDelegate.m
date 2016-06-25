@@ -18,7 +18,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //Change navigation bar appearance
+    [[UINavigationBar appearance] setBarTintColor:[UIColor mp_greenColor]];
     
+    // to remove 1 px border below nav bar
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage new]
+                                      forBarPosition:UIBarPositionAny
+                                          barMetrics:UIBarMetricsDefault];
+    
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    
+    NSDictionary *titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor],
+                                          NSFontAttributeName : [UIFont fontWithName:FONT_NAME_BOLD
+                                                                                size:17.0f]};
+    [[UINavigationBar appearance] setTitleTextAttributes:titleTextAttributes];
 #ifdef STAGING
     [[AFNetworkActivityLogger sharedLogger] startLogging];
     [AFNetworkActivityLogger sharedLogger].level = AFLoggerLevelDebug;

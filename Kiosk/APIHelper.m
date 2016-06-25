@@ -15,6 +15,13 @@
             case APIHelperRequestTypeKiosLogin:
             path = @"/api/v2/kiosk/auth";
             break;
+            case APIHelperRequestTypeKioskPaymentList:
+            path = @"/api/v2/kiosk/paymentmethod";
+            break;
+            case APIHelperRequestTypeKioskProjectList:
+            path = @"/api/v2/kiosk/content/project/";
+            break;
+            
     }
     return path;
 }

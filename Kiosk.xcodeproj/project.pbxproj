@@ -36,7 +36,6 @@
 		0005F6A01D1DB3C00060A25B /* AuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65C1D1DA9780060A25B /* AuthResponse.m */; };
 		0005F6A11D1DB3C00060A25B /* UINavigationController+ModalOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6861D1DAEC70060A25B /* UINavigationController+ModalOverlay.m */; };
 		0005F6A21D1DB3C00060A25B /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6971D1DAEFA0060A25B /* NSString+Validation.m */; };
-		0005F6A31D1DB3C00060A25B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DBB1D1D837D0069BA6D /* ViewController.m */; };
 		0005F6A41D1DB3C00060A25B /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F69B1D1DB2430060A25B /* APIManager.m */; };
 		0005F6A51D1DB3C00060A25B /* AuthData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6571D1DA9780060A25B /* AuthData.m */; };
 		0005F6A61D1DB3C00060A25B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DED1D1D8A5A0069BA6D /* BaseViewController.m */; };
@@ -74,9 +73,40 @@
 		0005F6C81D1DB3C00060A25B /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F68A1D1DAED20060A25B /* AlertViewController.xib */; };
 		0005F6D31D1DB5640060A25B /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D21D1DB5640060A25B /* APIHelper.m */; };
 		0005F6D41D1DB5640060A25B /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D21D1DB5640060A25B /* APIHelper.m */; };
+		0005F6DB1D1DE27D0060A25B /* PaymentListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D71D1DE27D0060A25B /* PaymentListData.m */; };
+		0005F6DC1D1DE27D0060A25B /* PaymentListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D71D1DE27D0060A25B /* PaymentListData.m */; };
+		0005F6DD1D1DE27D0060A25B /* PaymentListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6DA1D1DE27D0060A25B /* PaymentListResponse.m */; };
+		0005F6DE1D1DE27D0060A25B /* PaymentListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6DA1D1DE27D0060A25B /* PaymentListResponse.m */; };
+		0005F6EF1D1DE37E0060A25B /* ProjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E11D1DE37E0060A25B /* ProjectData.m */; };
+		0005F6F01D1DE37E0060A25B /* ProjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E11D1DE37E0060A25B /* ProjectData.m */; };
+		0005F6F11D1DE37E0060A25B /* ProjectEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E41D1DE37E0060A25B /* ProjectEvent.m */; };
+		0005F6F21D1DE37E0060A25B /* ProjectEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E41D1DE37E0060A25B /* ProjectEvent.m */; };
+		0005F6F31D1DE37E0060A25B /* ProjectParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E61D1DE37E0060A25B /* ProjectParticipant.m */; };
+		0005F6F41D1DE37E0060A25B /* ProjectParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E61D1DE37E0060A25B /* ProjectParticipant.m */; };
+		0005F6F51D1DE37E0060A25B /* ProjectPostMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E81D1DE37E0060A25B /* ProjectPostMeta.m */; };
+		0005F6F61D1DE37E0060A25B /* ProjectPostMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E81D1DE37E0060A25B /* ProjectPostMeta.m */; };
+		0005F6F71D1DE37E0060A25B /* ProjectProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EA1D1DE37E0060A25B /* ProjectProject.m */; };
+		0005F6F81D1DE37E0060A25B /* ProjectProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EA1D1DE37E0060A25B /* ProjectProject.m */; };
+		0005F6F91D1DE37E0060A25B /* ProjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EC1D1DE37E0060A25B /* ProjectResponse.m */; };
+		0005F6FA1D1DE37E0060A25B /* ProjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EC1D1DE37E0060A25B /* ProjectResponse.m */; };
+		0005F6FB1D1DE37E0060A25B /* ProjectVolunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EE1D1DE37E0060A25B /* ProjectVolunteer.m */; };
+		0005F6FC1D1DE37E0060A25B /* ProjectVolunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EE1D1DE37E0060A25B /* ProjectVolunteer.m */; };
+		0005F6FF1D1EFFDF0060A25B /* KioskNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6FE1D1EFFDF0060A25B /* KioskNavigationController.m */; };
+		0005F7001D1EFFDF0060A25B /* KioskNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6FE1D1EFFDF0060A25B /* KioskNavigationController.m */; };
+		0005F7071D1F087E0060A25B /* DonationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7031D1F087E0060A25B /* DonationListViewController.m */; };
+		0005F7081D1F087E0060A25B /* DonationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7031D1F087E0060A25B /* DonationListViewController.m */; };
+		0005F7091D1F087E0060A25B /* DonationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F7041D1F087E0060A25B /* DonationListViewController.xib */; };
+		0005F70A1D1F087E0060A25B /* DonationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F7041D1F087E0060A25B /* DonationListViewController.xib */; };
+		0005F70B1D1F087E0060A25B /* DonationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7061D1F087E0060A25B /* DonationView.m */; };
+		0005F70C1D1F087E0060A25B /* DonationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7061D1F087E0060A25B /* DonationView.m */; };
+		0005F7101D1F088C0060A25B /* DonationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F70E1D1F088C0060A25B /* DonationTableViewCell.m */; };
+		0005F7111D1F088C0060A25B /* DonationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F70E1D1F088C0060A25B /* DonationTableViewCell.m */; };
+		0005F7121D1F088C0060A25B /* DonationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F70F1D1F088C0060A25B /* DonationTableViewCell.xib */; };
+		0005F7131D1F088C0060A25B /* DonationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F70F1D1F088C0060A25B /* DonationTableViewCell.xib */; };
+		0005F7161D1F08940060A25B /* DonationListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7151D1F08940060A25B /* DonationListDataSource.m */; };
+		0005F7171D1F08940060A25B /* DonationListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7151D1F08940060A25B /* DonationListDataSource.m */; };
 		000C4DB61D1D837D0069BA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB51D1D837D0069BA6D /* main.m */; };
 		000C4DB91D1D837D0069BA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB81D1D837D0069BA6D /* AppDelegate.m */; };
-		000C4DBC1D1D837D0069BA6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DBB1D1D837D0069BA6D /* ViewController.m */; };
 		000C4DBF1D1D837D0069BA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DBD1D1D837D0069BA6D /* Main.storyboard */; };
 		000C4DC11D1D837D0069BA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC01D1D837D0069BA6D /* Assets.xcassets */; };
 		000C4DC41D1D837D0069BA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC21D1D837D0069BA6D /* LaunchScreen.storyboard */; };
@@ -163,12 +193,42 @@
 		0005F6CF1D1DB3C00060A25B /* Staging-Kiosk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Staging-Kiosk.plist"; path = "/Users/arie/Documents/work/product/Kiosk/Staging-Kiosk.plist"; sourceTree = "<absolute>"; };
 		0005F6D11D1DB5640060A25B /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };
 		0005F6D21D1DB5640060A25B /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
+		0005F6D61D1DE27D0060A25B /* PaymentListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentListData.h; sourceTree = "<group>"; };
+		0005F6D71D1DE27D0060A25B /* PaymentListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentListData.m; sourceTree = "<group>"; };
+		0005F6D81D1DE27D0060A25B /* PaymentListDataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentListDataModels.h; sourceTree = "<group>"; };
+		0005F6D91D1DE27D0060A25B /* PaymentListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentListResponse.h; sourceTree = "<group>"; };
+		0005F6DA1D1DE27D0060A25B /* PaymentListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentListResponse.m; sourceTree = "<group>"; };
+		0005F6E01D1DE37E0060A25B /* ProjectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectData.h; sourceTree = "<group>"; };
+		0005F6E11D1DE37E0060A25B /* ProjectData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectData.m; sourceTree = "<group>"; };
+		0005F6E21D1DE37E0060A25B /* ProjectDataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectDataModels.h; sourceTree = "<group>"; };
+		0005F6E31D1DE37E0060A25B /* ProjectEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectEvent.h; sourceTree = "<group>"; };
+		0005F6E41D1DE37E0060A25B /* ProjectEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectEvent.m; sourceTree = "<group>"; };
+		0005F6E51D1DE37E0060A25B /* ProjectParticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectParticipant.h; sourceTree = "<group>"; };
+		0005F6E61D1DE37E0060A25B /* ProjectParticipant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectParticipant.m; sourceTree = "<group>"; };
+		0005F6E71D1DE37E0060A25B /* ProjectPostMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectPostMeta.h; sourceTree = "<group>"; };
+		0005F6E81D1DE37E0060A25B /* ProjectPostMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectPostMeta.m; sourceTree = "<group>"; };
+		0005F6E91D1DE37E0060A25B /* ProjectProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectProject.h; sourceTree = "<group>"; };
+		0005F6EA1D1DE37E0060A25B /* ProjectProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectProject.m; sourceTree = "<group>"; };
+		0005F6EB1D1DE37E0060A25B /* ProjectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectResponse.h; sourceTree = "<group>"; };
+		0005F6EC1D1DE37E0060A25B /* ProjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectResponse.m; sourceTree = "<group>"; };
+		0005F6ED1D1DE37E0060A25B /* ProjectVolunteer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectVolunteer.h; sourceTree = "<group>"; };
+		0005F6EE1D1DE37E0060A25B /* ProjectVolunteer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectVolunteer.m; sourceTree = "<group>"; };
+		0005F6FD1D1EFFDF0060A25B /* KioskNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KioskNavigationController.h; sourceTree = "<group>"; };
+		0005F6FE1D1EFFDF0060A25B /* KioskNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KioskNavigationController.m; sourceTree = "<group>"; };
+		0005F7021D1F087E0060A25B /* DonationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationListViewController.h; sourceTree = "<group>"; };
+		0005F7031D1F087E0060A25B /* DonationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationListViewController.m; sourceTree = "<group>"; };
+		0005F7041D1F087E0060A25B /* DonationListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonationListViewController.xib; sourceTree = "<group>"; };
+		0005F7051D1F087E0060A25B /* DonationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationView.h; sourceTree = "<group>"; };
+		0005F7061D1F087E0060A25B /* DonationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationView.m; sourceTree = "<group>"; };
+		0005F70D1D1F088C0060A25B /* DonationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationTableViewCell.h; sourceTree = "<group>"; };
+		0005F70E1D1F088C0060A25B /* DonationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationTableViewCell.m; sourceTree = "<group>"; };
+		0005F70F1D1F088C0060A25B /* DonationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonationTableViewCell.xib; sourceTree = "<group>"; };
+		0005F7141D1F08940060A25B /* DonationListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationListDataSource.h; sourceTree = "<group>"; };
+		0005F7151D1F08940060A25B /* DonationListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationListDataSource.m; sourceTree = "<group>"; };
 		000C4DB11D1D837D0069BA6D /* Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000C4DB51D1D837D0069BA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		000C4DB71D1D837D0069BA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		000C4DB81D1D837D0069BA6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		000C4DBA1D1D837D0069BA6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		000C4DBB1D1D837D0069BA6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		000C4DBE1D1D837D0069BA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		000C4DC01D1D837D0069BA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000C4DC31D1D837D0069BA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -250,6 +310,8 @@
 		0005F6501D1DA9640060A25B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0005F6DF1D1DE37E0060A25B /* Project */,
+				0005F6D51D1DE27D0060A25B /* Payment */,
 				0005F6511D1DA9780060A25B /* Auth */,
 			);
 			name = Model;
@@ -338,6 +400,57 @@
 			name = Helper;
 			sourceTree = "<group>";
 		};
+		0005F6D51D1DE27D0060A25B /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				0005F6D61D1DE27D0060A25B /* PaymentListData.h */,
+				0005F6D71D1DE27D0060A25B /* PaymentListData.m */,
+				0005F6D81D1DE27D0060A25B /* PaymentListDataModels.h */,
+				0005F6D91D1DE27D0060A25B /* PaymentListResponse.h */,
+				0005F6DA1D1DE27D0060A25B /* PaymentListResponse.m */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		0005F6DF1D1DE37E0060A25B /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				0005F6E01D1DE37E0060A25B /* ProjectData.h */,
+				0005F6E11D1DE37E0060A25B /* ProjectData.m */,
+				0005F6E21D1DE37E0060A25B /* ProjectDataModels.h */,
+				0005F6E31D1DE37E0060A25B /* ProjectEvent.h */,
+				0005F6E41D1DE37E0060A25B /* ProjectEvent.m */,
+				0005F6E51D1DE37E0060A25B /* ProjectParticipant.h */,
+				0005F6E61D1DE37E0060A25B /* ProjectParticipant.m */,
+				0005F6E71D1DE37E0060A25B /* ProjectPostMeta.h */,
+				0005F6E81D1DE37E0060A25B /* ProjectPostMeta.m */,
+				0005F6E91D1DE37E0060A25B /* ProjectProject.h */,
+				0005F6EA1D1DE37E0060A25B /* ProjectProject.m */,
+				0005F6EB1D1DE37E0060A25B /* ProjectResponse.h */,
+				0005F6EC1D1DE37E0060A25B /* ProjectResponse.m */,
+				0005F6ED1D1DE37E0060A25B /* ProjectVolunteer.h */,
+				0005F6EE1D1DE37E0060A25B /* ProjectVolunteer.m */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		0005F7011D1F08760060A25B /* DonationLIst */ = {
+			isa = PBXGroup;
+			children = (
+				0005F7141D1F08940060A25B /* DonationListDataSource.h */,
+				0005F7151D1F08940060A25B /* DonationListDataSource.m */,
+				0005F70D1D1F088C0060A25B /* DonationTableViewCell.h */,
+				0005F70E1D1F088C0060A25B /* DonationTableViewCell.m */,
+				0005F70F1D1F088C0060A25B /* DonationTableViewCell.xib */,
+				0005F7021D1F087E0060A25B /* DonationListViewController.h */,
+				0005F7031D1F087E0060A25B /* DonationListViewController.m */,
+				0005F7041D1F087E0060A25B /* DonationListViewController.xib */,
+				0005F7051D1F087E0060A25B /* DonationView.h */,
+				0005F7061D1F087E0060A25B /* DonationView.m */,
+			);
+			name = DonationLIst;
+			sourceTree = "<group>";
+		};
 		000C4DA81D1D837D0069BA6D = {
 			isa = PBXGroup;
 			children = (
@@ -374,8 +487,6 @@
 				000C4DE71D1D873A0069BA6D /* DashboardView */,
 				000C4DB71D1D837D0069BA6D /* AppDelegate.h */,
 				000C4DB81D1D837D0069BA6D /* AppDelegate.m */,
-				000C4DBA1D1D837D0069BA6D /* ViewController.h */,
-				000C4DBB1D1D837D0069BA6D /* ViewController.m */,
 				000C4DBD1D1D837D0069BA6D /* Main.storyboard */,
 				000C4DC01D1D837D0069BA6D /* Assets.xcassets */,
 				000C4DC21D1D837D0069BA6D /* LaunchScreen.storyboard */,
@@ -424,10 +535,13 @@
 		000C4DEB1D1D8A3F0069BA6D /* Donation */ = {
 			isa = PBXGroup;
 			children = (
+				0005F7011D1F08760060A25B /* DonationLIst */,
 				000C4DFB1D1D90C30069BA6D /* Donation Main */,
 				000C4DEF1D1D8AEE0069BA6D /* Donation VC */,
 				000C4DEC1D1D8A5A0069BA6D /* BaseViewController.h */,
 				000C4DED1D1D8A5A0069BA6D /* BaseViewController.m */,
+				0005F6FD1D1EFFDF0060A25B /* KioskNavigationController.h */,
+				0005F6FE1D1EFFDF0060A25B /* KioskNavigationController.m */,
 			);
 			name = Donation;
 			sourceTree = "<group>";
@@ -619,6 +733,8 @@
 				0005F6C01D1DB3C00060A25B /* LoginViewController.xib in Resources */,
 				0005F6C11D1DB3C00060A25B /* LaunchScreen.storyboard in Resources */,
 				0005F6C21D1DB3C00060A25B /* MuseoSans_500.otf in Resources */,
+				0005F70A1D1F087E0060A25B /* DonationListViewController.xib in Resources */,
+				0005F7131D1F088C0060A25B /* DonationTableViewCell.xib in Resources */,
 				0005F6C31D1DB3C00060A25B /* Assets.xcassets in Resources */,
 				0005F6C41D1DB3C00060A25B /* MuseoSans_700.otf in Resources */,
 				0005F6C51D1DB3C00060A25B /* DonationViewController.xib in Resources */,
@@ -636,6 +752,8 @@
 				0005F64F1D1DA83B0060A25B /* LoginViewController.xib in Resources */,
 				000C4DC41D1D837D0069BA6D /* LaunchScreen.storyboard in Resources */,
 				0005F6771D1DAE6F0060A25B /* MuseoSans_500.otf in Resources */,
+				0005F7091D1F087E0060A25B /* DonationListViewController.xib in Resources */,
+				0005F7121D1F088C0060A25B /* DonationTableViewCell.xib in Resources */,
 				000C4DC11D1D837D0069BA6D /* Assets.xcassets in Resources */,
 				0005F6761D1DAE6F0060A25B /* MuseoSans_700.otf in Resources */,
 				000C4DF41D1D8B090069BA6D /* DonationViewController.xib in Resources */,
@@ -836,25 +954,37 @@
 			files = (
 				0005F6A01D1DB3C00060A25B /* AuthResponse.m in Sources */,
 				0005F6A11D1DB3C00060A25B /* UINavigationController+ModalOverlay.m in Sources */,
+				0005F6F21D1DE37E0060A25B /* ProjectEvent.m in Sources */,
 				0005F6A21D1DB3C00060A25B /* NSString+Validation.m in Sources */,
-				0005F6A31D1DB3C00060A25B /* ViewController.m in Sources */,
+				0005F7171D1F08940060A25B /* DonationListDataSource.m in Sources */,
 				0005F6A41D1DB3C00060A25B /* APIManager.m in Sources */,
 				0005F6A51D1DB3C00060A25B /* AuthData.m in Sources */,
+				0005F6F41D1DE37E0060A25B /* ProjectParticipant.m in Sources */,
 				0005F6A61D1DB3C00060A25B /* BaseViewController.m in Sources */,
+				0005F70C1D1F087E0060A25B /* DonationView.m in Sources */,
 				0005F6D41D1DB5640060A25B /* APIHelper.m in Sources */,
+				0005F7001D1EFFDF0060A25B /* KioskNavigationController.m in Sources */,
 				0005F6A71D1DB3C00060A25B /* CurrencyHelper.m in Sources */,
+				0005F6F81D1DE37E0060A25B /* ProjectProject.m in Sources */,
 				0005F6A81D1DB3C00060A25B /* DonationViewController.m in Sources */,
 				0005F6A91D1DB3C00060A25B /* PopupSuperView.m in Sources */,
+				0005F7081D1F087E0060A25B /* DonationListViewController.m in Sources */,
 				0005F6AA1D1DB3C00060A25B /* AuthActivateEmail.m in Sources */,
 				0005F6AB1D1DB3C00060A25B /* UIColor+Masjidpay.m in Sources */,
 				0005F6AC1D1DB3C00060A25B /* AppDelegate.m in Sources */,
+				0005F7111D1F088C0060A25B /* DonationTableViewCell.m in Sources */,
+				0005F6DC1D1DE27D0060A25B /* PaymentListData.m in Sources */,
 				0005F6AD1D1DB3C00060A25B /* AuthAddress.m in Sources */,
+				0005F6DE1D1DE27D0060A25B /* PaymentListResponse.m in Sources */,
+				0005F6F01D1DE37E0060A25B /* ProjectData.m in Sources */,
 				0005F6AE1D1DB3C00060A25B /* MainViewController.m in Sources */,
 				0005F6AF1D1DB3C00060A25B /* AuthStripe.m in Sources */,
 				0005F6B01D1DB3C00060A25B /* LoginViewController.m in Sources */,
+				0005F6FC1D1DE37E0060A25B /* ProjectVolunteer.m in Sources */,
 				0005F6B11D1DB3C00060A25B /* main.m in Sources */,
 				0005F6B21D1DB3C00060A25B /* PaddedLabel.m in Sources */,
 				0005F6B31D1DB3C00060A25B /* CustomFormTextField.m in Sources */,
+				0005F6FA1D1DE37E0060A25B /* ProjectResponse.m in Sources */,
 				0005F6B41D1DB3C00060A25B /* DashboardViewController.m in Sources */,
 				0005F6B51D1DB3C00060A25B /* DonationMainViewController.m in Sources */,
 				0005F6B61D1DB3C00060A25B /* AuthGeoLocation.m in Sources */,
@@ -862,6 +992,7 @@
 				0005F6B81D1DB3C00060A25B /* SeparatorLineView.m in Sources */,
 				0005F6B91D1DB3C00060A25B /* UIViewController+ModalOverlay.m in Sources */,
 				0005F6BA1D1DB3C00060A25B /* TransparentView.m in Sources */,
+				0005F6F61D1DE37E0060A25B /* ProjectPostMeta.m in Sources */,
 				0005F6BB1D1DB3C00060A25B /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -872,25 +1003,37 @@
 			files = (
 				0005F6631D1DA9780060A25B /* AuthResponse.m in Sources */,
 				0005F6871D1DAEC70060A25B /* UINavigationController+ModalOverlay.m in Sources */,
+				0005F6F11D1DE37E0060A25B /* ProjectEvent.m in Sources */,
 				0005F6981D1DAEFA0060A25B /* NSString+Validation.m in Sources */,
-				000C4DBC1D1D837D0069BA6D /* ViewController.m in Sources */,
+				0005F7161D1F08940060A25B /* DonationListDataSource.m in Sources */,
 				0005F69C1D1DB2430060A25B /* APIManager.m in Sources */,
 				0005F6611D1DA9780060A25B /* AuthData.m in Sources */,
+				0005F6F31D1DE37E0060A25B /* ProjectParticipant.m in Sources */,
 				000C4DEE1D1D8A5A0069BA6D /* BaseViewController.m in Sources */,
+				0005F70B1D1F087E0060A25B /* DonationView.m in Sources */,
 				0005F6D31D1DB5640060A25B /* APIHelper.m in Sources */,
+				0005F6FF1D1EFFDF0060A25B /* KioskNavigationController.m in Sources */,
 				0005F66D1D1DAE440060A25B /* CurrencyHelper.m in Sources */,
+				0005F6F71D1DE37E0060A25B /* ProjectProject.m in Sources */,
 				000C4DF31D1D8B090069BA6D /* DonationViewController.m in Sources */,
 				0005F6921D1DAEE40060A25B /* PopupSuperView.m in Sources */,
+				0005F7071D1F087E0060A25B /* DonationListViewController.m in Sources */,
 				0005F65F1D1DA9780060A25B /* AuthActivateEmail.m in Sources */,
 				0005F67B1D1DAE960060A25B /* UIColor+Masjidpay.m in Sources */,
 				000C4DB91D1D837D0069BA6D /* AppDelegate.m in Sources */,
+				0005F7101D1F088C0060A25B /* DonationTableViewCell.m in Sources */,
+				0005F6DB1D1DE27D0060A25B /* PaymentListData.m in Sources */,
 				0005F6601D1DA9780060A25B /* AuthAddress.m in Sources */,
+				0005F6DD1D1DE27D0060A25B /* PaymentListResponse.m in Sources */,
+				0005F6EF1D1DE37E0060A25B /* ProjectData.m in Sources */,
 				000C4DF91D1D8E710069BA6D /* MainViewController.m in Sources */,
 				0005F6641D1DA9780060A25B /* AuthStripe.m in Sources */,
 				0005F64E1D1DA83B0060A25B /* LoginViewController.m in Sources */,
+				0005F6FB1D1DE37E0060A25B /* ProjectVolunteer.m in Sources */,
 				000C4DB61D1D837D0069BA6D /* main.m in Sources */,
 				0005F6841D1DAEBF0060A25B /* PaddedLabel.m in Sources */,
 				0005F6811D1DAEB40060A25B /* CustomFormTextField.m in Sources */,
+				0005F6F91D1DE37E0060A25B /* ProjectResponse.m in Sources */,
 				000C4DEA1D1D87560069BA6D /* DashboardViewController.m in Sources */,
 				000C4DFE1D1D90CF0069BA6D /* DonationMainViewController.m in Sources */,
 				0005F6621D1DA9780060A25B /* AuthGeoLocation.m in Sources */,
@@ -898,6 +1041,7 @@
 				0005F67E1D1DAEAC0060A25B /* SeparatorLineView.m in Sources */,
 				0005F68F1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m in Sources */,
 				0005F6951D1DAEEB0060A25B /* TransparentView.m in Sources */,
+				0005F6F51D1DE37E0060A25B /* ProjectPostMeta.m in Sources */,
 				0005F68B1D1DAED20060A25B /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -967,6 +1111,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.staging.masjidpay.Kiosk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -984,6 +1129,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.staging.masjidpay.Kiosk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

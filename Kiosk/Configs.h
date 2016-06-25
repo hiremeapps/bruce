@@ -34,7 +34,7 @@ static NSString * const BASE_API_URL = @"http://api.masjidpay.com";
 static NSString * const BASE_PAYMENT_URL = @"http://app.masjidpay.com";
 #endif
 
-static NSString * const WEB_PAYMENT_URL = @"webpayment?";
+static NSString * const WEB_PAYMENT_URL = @"kiosk/webpayment/card?";
 static NSString * const TOSA_URL = @"http://masjidpay.com/page/tosa.html";
 static NSString * const POLICY_URL = @"http://masjidpay.com/page/policy.html";
 
