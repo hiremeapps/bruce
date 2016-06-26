@@ -33,112 +33,91 @@
 		0005F6951D1DAEEB0060A25B /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6941D1DAEEB0060A25B /* TransparentView.m */; };
 		0005F6981D1DAEFA0060A25B /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6971D1DAEFA0060A25B /* NSString+Validation.m */; };
 		0005F69C1D1DB2430060A25B /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F69B1D1DB2430060A25B /* APIManager.m */; };
-		0005F6A01D1DB3C00060A25B /* AuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65C1D1DA9780060A25B /* AuthResponse.m */; };
-		0005F6A11D1DB3C00060A25B /* UINavigationController+ModalOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6861D1DAEC70060A25B /* UINavigationController+ModalOverlay.m */; };
-		0005F6A21D1DB3C00060A25B /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6971D1DAEFA0060A25B /* NSString+Validation.m */; };
-		0005F6A41D1DB3C00060A25B /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F69B1D1DB2430060A25B /* APIManager.m */; };
-		0005F6A51D1DB3C00060A25B /* AuthData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6571D1DA9780060A25B /* AuthData.m */; };
-		0005F6A61D1DB3C00060A25B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DED1D1D8A5A0069BA6D /* BaseViewController.m */; };
-		0005F6A71D1DB3C00060A25B /* CurrencyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F66A1D1DAE440060A25B /* CurrencyHelper.m */; };
-		0005F6A81D1DB3C00060A25B /* DonationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF11D1D8B090069BA6D /* DonationViewController.m */; };
-		0005F6A91D1DB3C00060A25B /* PopupSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6911D1DAEE40060A25B /* PopupSuperView.m */; };
-		0005F6AA1D1DB3C00060A25B /* AuthActivateEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6531D1DA9780060A25B /* AuthActivateEmail.m */; };
-		0005F6AB1D1DB3C00060A25B /* UIColor+Masjidpay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F67A1D1DAE960060A25B /* UIColor+Masjidpay.m */; };
-		0005F6AC1D1DB3C00060A25B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB81D1D837D0069BA6D /* AppDelegate.m */; };
-		0005F6AD1D1DB3C00060A25B /* AuthAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6551D1DA9780060A25B /* AuthAddress.m */; };
-		0005F6AE1D1DB3C00060A25B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF71D1D8E700069BA6D /* MainViewController.m */; };
-		0005F6AF1D1DB3C00060A25B /* AuthStripe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65E1D1DA9780060A25B /* AuthStripe.m */; };
-		0005F6B01D1DB3C00060A25B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F64C1D1DA83B0060A25B /* LoginViewController.m */; };
-		0005F6B11D1DB3C00060A25B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB51D1D837D0069BA6D /* main.m */; };
-		0005F6B21D1DB3C00060A25B /* PaddedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6831D1DAEBF0060A25B /* PaddedLabel.m */; };
-		0005F6B31D1DB3C00060A25B /* CustomFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6801D1DAEB40060A25B /* CustomFormTextField.m */; };
-		0005F6B41D1DB3C00060A25B /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DE91D1D87560069BA6D /* DashboardViewController.m */; };
-		0005F6B51D1DB3C00060A25B /* DonationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */; };
-		0005F6B61D1DB3C00060A25B /* AuthGeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65A1D1DA9780060A25B /* AuthGeoLocation.m */; };
-		0005F6B71D1DB3C00060A25B /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6671D1DAE3C0060A25B /* Util.m */; };
-		0005F6B81D1DB3C00060A25B /* SeparatorLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F67D1D1DAEAC0060A25B /* SeparatorLineView.m */; };
-		0005F6B91D1DB3C00060A25B /* UIViewController+ModalOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F68E1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m */; };
-		0005F6BA1D1DB3C00060A25B /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6941D1DAEEB0060A25B /* TransparentView.m */; };
-		0005F6BB1D1DB3C00060A25B /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6891D1DAED20060A25B /* AlertViewController.m */; };
-		0005F6BD1D1DB3C00060A25B /* libPods-Kiosk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */; };
-		0005F6BF1D1DB3C00060A25B /* MuseoSans_100.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6701D1DAE6F0060A25B /* MuseoSans_100.otf */; };
-		0005F6C01D1DB3C00060A25B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F64D1D1DA83B0060A25B /* LoginViewController.xib */; };
-		0005F6C11D1DB3C00060A25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC21D1D837D0069BA6D /* LaunchScreen.storyboard */; };
-		0005F6C21D1DB3C00060A25B /* MuseoSans_500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6731D1DAE6F0060A25B /* MuseoSans_500.otf */; };
-		0005F6C31D1DB3C00060A25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC01D1D837D0069BA6D /* Assets.xcassets */; };
-		0005F6C41D1DB3C00060A25B /* MuseoSans_700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6721D1DAE6F0060A25B /* MuseoSans_700.otf */; };
-		0005F6C51D1DB3C00060A25B /* DonationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DF21D1D8B090069BA6D /* DonationViewController.xib */; };
-		0005F6C61D1DB3C00060A25B /* MuseoSans_300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6711D1DAE6F0060A25B /* MuseoSans_300.otf */; };
-		0005F6C71D1DB3C00060A25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DBD1D1D837D0069BA6D /* Main.storyboard */; };
-		0005F6C81D1DB3C00060A25B /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F68A1D1DAED20060A25B /* AlertViewController.xib */; };
 		0005F6D31D1DB5640060A25B /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D21D1DB5640060A25B /* APIHelper.m */; };
-		0005F6D41D1DB5640060A25B /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D21D1DB5640060A25B /* APIHelper.m */; };
 		0005F6DB1D1DE27D0060A25B /* PaymentListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D71D1DE27D0060A25B /* PaymentListData.m */; };
-		0005F6DC1D1DE27D0060A25B /* PaymentListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D71D1DE27D0060A25B /* PaymentListData.m */; };
 		0005F6DD1D1DE27D0060A25B /* PaymentListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6DA1D1DE27D0060A25B /* PaymentListResponse.m */; };
-		0005F6DE1D1DE27D0060A25B /* PaymentListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6DA1D1DE27D0060A25B /* PaymentListResponse.m */; };
 		0005F6EF1D1DE37E0060A25B /* ProjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E11D1DE37E0060A25B /* ProjectData.m */; };
-		0005F6F01D1DE37E0060A25B /* ProjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E11D1DE37E0060A25B /* ProjectData.m */; };
 		0005F6F11D1DE37E0060A25B /* ProjectEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E41D1DE37E0060A25B /* ProjectEvent.m */; };
-		0005F6F21D1DE37E0060A25B /* ProjectEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E41D1DE37E0060A25B /* ProjectEvent.m */; };
 		0005F6F31D1DE37E0060A25B /* ProjectParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E61D1DE37E0060A25B /* ProjectParticipant.m */; };
-		0005F6F41D1DE37E0060A25B /* ProjectParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E61D1DE37E0060A25B /* ProjectParticipant.m */; };
 		0005F6F51D1DE37E0060A25B /* ProjectPostMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E81D1DE37E0060A25B /* ProjectPostMeta.m */; };
-		0005F6F61D1DE37E0060A25B /* ProjectPostMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E81D1DE37E0060A25B /* ProjectPostMeta.m */; };
 		0005F6F71D1DE37E0060A25B /* ProjectProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EA1D1DE37E0060A25B /* ProjectProject.m */; };
-		0005F6F81D1DE37E0060A25B /* ProjectProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EA1D1DE37E0060A25B /* ProjectProject.m */; };
 		0005F6F91D1DE37E0060A25B /* ProjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EC1D1DE37E0060A25B /* ProjectResponse.m */; };
-		0005F6FA1D1DE37E0060A25B /* ProjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EC1D1DE37E0060A25B /* ProjectResponse.m */; };
 		0005F6FB1D1DE37E0060A25B /* ProjectVolunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EE1D1DE37E0060A25B /* ProjectVolunteer.m */; };
-		0005F6FC1D1DE37E0060A25B /* ProjectVolunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EE1D1DE37E0060A25B /* ProjectVolunteer.m */; };
 		0005F6FF1D1EFFDF0060A25B /* KioskNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6FE1D1EFFDF0060A25B /* KioskNavigationController.m */; };
-		0005F7001D1EFFDF0060A25B /* KioskNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6FE1D1EFFDF0060A25B /* KioskNavigationController.m */; };
 		0005F7071D1F087E0060A25B /* DonationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7031D1F087E0060A25B /* DonationListViewController.m */; };
-		0005F7081D1F087E0060A25B /* DonationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7031D1F087E0060A25B /* DonationListViewController.m */; };
 		0005F7091D1F087E0060A25B /* DonationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F7041D1F087E0060A25B /* DonationListViewController.xib */; };
-		0005F70A1D1F087E0060A25B /* DonationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F7041D1F087E0060A25B /* DonationListViewController.xib */; };
 		0005F70B1D1F087E0060A25B /* DonationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7061D1F087E0060A25B /* DonationView.m */; };
-		0005F70C1D1F087E0060A25B /* DonationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7061D1F087E0060A25B /* DonationView.m */; };
 		0005F7101D1F088C0060A25B /* DonationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F70E1D1F088C0060A25B /* DonationTableViewCell.m */; };
-		0005F7111D1F088C0060A25B /* DonationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F70E1D1F088C0060A25B /* DonationTableViewCell.m */; };
 		0005F7121D1F088C0060A25B /* DonationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F70F1D1F088C0060A25B /* DonationTableViewCell.xib */; };
-		0005F7131D1F088C0060A25B /* DonationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F70F1D1F088C0060A25B /* DonationTableViewCell.xib */; };
 		0005F7161D1F08940060A25B /* DonationListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7151D1F08940060A25B /* DonationListDataSource.m */; };
-		0005F7171D1F08940060A25B /* DonationListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7151D1F08940060A25B /* DonationListDataSource.m */; };
 		000C4DB61D1D837D0069BA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB51D1D837D0069BA6D /* main.m */; };
 		000C4DB91D1D837D0069BA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB81D1D837D0069BA6D /* AppDelegate.m */; };
 		000C4DBF1D1D837D0069BA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DBD1D1D837D0069BA6D /* Main.storyboard */; };
 		000C4DC11D1D837D0069BA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC01D1D837D0069BA6D /* Assets.xcassets */; };
 		000C4DC41D1D837D0069BA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC21D1D837D0069BA6D /* LaunchScreen.storyboard */; };
-		000C4DCF1D1D837D0069BA6D /* KioskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DCE1D1D837D0069BA6D /* KioskTests.m */; };
-		000C4DDA1D1D837D0069BA6D /* KioskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DD91D1D837D0069BA6D /* KioskUITests.m */; };
 		000C4DEA1D1D87560069BA6D /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DE91D1D87560069BA6D /* DashboardViewController.m */; };
 		000C4DEE1D1D8A5A0069BA6D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DED1D1D8A5A0069BA6D /* BaseViewController.m */; };
 		000C4DF31D1D8B090069BA6D /* DonationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF11D1D8B090069BA6D /* DonationViewController.m */; };
 		000C4DF41D1D8B090069BA6D /* DonationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DF21D1D8B090069BA6D /* DonationViewController.xib */; };
 		000C4DF91D1D8E710069BA6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF71D1D8E700069BA6D /* MainViewController.m */; };
 		000C4DFE1D1D90CF0069BA6D /* DonationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */; };
-		229859AFD72697B575D0CB55 /* libPods-KioskUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */; };
+		00A97C9C1D201DEC0025ADA5 /* AuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65C1D1DA9780060A25B /* AuthResponse.m */; };
+		00A97C9D1D201DEC0025ADA5 /* UINavigationController+ModalOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6861D1DAEC70060A25B /* UINavigationController+ModalOverlay.m */; };
+		00A97C9E1D201DEC0025ADA5 /* ProjectEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E41D1DE37E0060A25B /* ProjectEvent.m */; };
+		00A97C9F1D201DEC0025ADA5 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6971D1DAEFA0060A25B /* NSString+Validation.m */; };
+		00A97CA01D201DEC0025ADA5 /* DonationListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7151D1F08940060A25B /* DonationListDataSource.m */; };
+		00A97CA11D201DEC0025ADA5 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F69B1D1DB2430060A25B /* APIManager.m */; };
+		00A97CA21D201DEC0025ADA5 /* AuthData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6571D1DA9780060A25B /* AuthData.m */; };
+		00A97CA31D201DEC0025ADA5 /* ProjectParticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E61D1DE37E0060A25B /* ProjectParticipant.m */; };
+		00A97CA41D201DEC0025ADA5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DED1D1D8A5A0069BA6D /* BaseViewController.m */; };
+		00A97CA51D201DEC0025ADA5 /* DonationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7061D1F087E0060A25B /* DonationView.m */; };
+		00A97CA61D201DEC0025ADA5 /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D21D1DB5640060A25B /* APIHelper.m */; };
+		00A97CA71D201DEC0025ADA5 /* KioskNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6FE1D1EFFDF0060A25B /* KioskNavigationController.m */; };
+		00A97CA81D201DEC0025ADA5 /* CurrencyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F66A1D1DAE440060A25B /* CurrencyHelper.m */; };
+		00A97CA91D201DEC0025ADA5 /* ProjectProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EA1D1DE37E0060A25B /* ProjectProject.m */; };
+		00A97CAA1D201DEC0025ADA5 /* DonationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF11D1D8B090069BA6D /* DonationViewController.m */; };
+		00A97CAB1D201DEC0025ADA5 /* PopupSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6911D1DAEE40060A25B /* PopupSuperView.m */; };
+		00A97CAC1D201DEC0025ADA5 /* DonationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F7031D1F087E0060A25B /* DonationListViewController.m */; };
+		00A97CAD1D201DEC0025ADA5 /* AuthActivateEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6531D1DA9780060A25B /* AuthActivateEmail.m */; };
+		00A97CAE1D201DEC0025ADA5 /* UIColor+Masjidpay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F67A1D1DAE960060A25B /* UIColor+Masjidpay.m */; };
+		00A97CAF1D201DEC0025ADA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB81D1D837D0069BA6D /* AppDelegate.m */; };
+		00A97CB01D201DEC0025ADA5 /* DonationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F70E1D1F088C0060A25B /* DonationTableViewCell.m */; };
+		00A97CB11D201DEC0025ADA5 /* PaymentListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6D71D1DE27D0060A25B /* PaymentListData.m */; };
+		00A97CB21D201DEC0025ADA5 /* AuthAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6551D1DA9780060A25B /* AuthAddress.m */; };
+		00A97CB31D201DEC0025ADA5 /* PaymentListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6DA1D1DE27D0060A25B /* PaymentListResponse.m */; };
+		00A97CB41D201DEC0025ADA5 /* ProjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E11D1DE37E0060A25B /* ProjectData.m */; };
+		00A97CB51D201DEC0025ADA5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DF71D1D8E700069BA6D /* MainViewController.m */; };
+		00A97CB61D201DEC0025ADA5 /* AuthStripe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65E1D1DA9780060A25B /* AuthStripe.m */; };
+		00A97CB71D201DEC0025ADA5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F64C1D1DA83B0060A25B /* LoginViewController.m */; };
+		00A97CB81D201DEC0025ADA5 /* ProjectVolunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EE1D1DE37E0060A25B /* ProjectVolunteer.m */; };
+		00A97CB91D201DEC0025ADA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DB51D1D837D0069BA6D /* main.m */; };
+		00A97CBA1D201DEC0025ADA5 /* PaddedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6831D1DAEBF0060A25B /* PaddedLabel.m */; };
+		00A97CBB1D201DEC0025ADA5 /* CustomFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6801D1DAEB40060A25B /* CustomFormTextField.m */; };
+		00A97CBC1D201DEC0025ADA5 /* ProjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6EC1D1DE37E0060A25B /* ProjectResponse.m */; };
+		00A97CBD1D201DEC0025ADA5 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DE91D1D87560069BA6D /* DashboardViewController.m */; };
+		00A97CBE1D201DEC0025ADA5 /* DonationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */; };
+		00A97CBF1D201DEC0025ADA5 /* AuthGeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F65A1D1DA9780060A25B /* AuthGeoLocation.m */; };
+		00A97CC01D201DEC0025ADA5 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6671D1DAE3C0060A25B /* Util.m */; };
+		00A97CC11D201DEC0025ADA5 /* SeparatorLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F67D1D1DAEAC0060A25B /* SeparatorLineView.m */; };
+		00A97CC21D201DEC0025ADA5 /* UIViewController+ModalOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F68E1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m */; };
+		00A97CC31D201DEC0025ADA5 /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6941D1DAEEB0060A25B /* TransparentView.m */; };
+		00A97CC41D201DEC0025ADA5 /* ProjectPostMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E81D1DE37E0060A25B /* ProjectPostMeta.m */; };
+		00A97CC51D201DEC0025ADA5 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6891D1DAED20060A25B /* AlertViewController.m */; };
+		00A97CC71D201DEC0025ADA5 /* libPods-Kiosk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */; };
+		00A97CC91D201DEC0025ADA5 /* MuseoSans_100.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6701D1DAE6F0060A25B /* MuseoSans_100.otf */; };
+		00A97CCA1D201DEC0025ADA5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F64D1D1DA83B0060A25B /* LoginViewController.xib */; };
+		00A97CCB1D201DEC0025ADA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC21D1D837D0069BA6D /* LaunchScreen.storyboard */; };
+		00A97CCC1D201DEC0025ADA5 /* MuseoSans_500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6731D1DAE6F0060A25B /* MuseoSans_500.otf */; };
+		00A97CCD1D201DEC0025ADA5 /* DonationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F7041D1F087E0060A25B /* DonationListViewController.xib */; };
+		00A97CCE1D201DEC0025ADA5 /* DonationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F70F1D1F088C0060A25B /* DonationTableViewCell.xib */; };
+		00A97CCF1D201DEC0025ADA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC01D1D837D0069BA6D /* Assets.xcassets */; };
+		00A97CD01D201DEC0025ADA5 /* MuseoSans_700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6721D1DAE6F0060A25B /* MuseoSans_700.otf */; };
+		00A97CD11D201DEC0025ADA5 /* DonationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DF21D1D8B090069BA6D /* DonationViewController.xib */; };
+		00A97CD21D201DEC0025ADA5 /* MuseoSans_300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6711D1DAE6F0060A25B /* MuseoSans_300.otf */; };
+		00A97CD31D201DEC0025ADA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DBD1D1D837D0069BA6D /* Main.storyboard */; };
+		00A97CD41D201DEC0025ADA5 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F68A1D1DAED20060A25B /* AlertViewController.xib */; };
 		56DB0BC553E8D84652B77A64 /* libPods-Kiosk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */; };
-		FFF2C500C04F55306D6EC17B /* libPods-KioskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8847FB81AE0E8E17E70CCC74 /* libPods-KioskTests.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		000C4DCB1D1D837D0069BA6D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 000C4DA91D1D837D0069BA6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 000C4DB01D1D837D0069BA6D;
-			remoteInfo = Kiosk;
-		};
-		000C4DD61D1D837D0069BA6D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 000C4DA91D1D837D0069BA6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 000C4DB01D1D837D0069BA6D;
-			remoteInfo = Kiosk;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0005F64B1D1DA83B0060A25B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -189,7 +168,6 @@
 		0005F6971D1DAEFA0060A25B /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
 		0005F69A1D1DB2430060A25B /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
 		0005F69B1D1DB2430060A25B /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
-		0005F6CE1D1DB3C00060A25B /* Staging-Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Staging-Kiosk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0005F6CF1D1DB3C00060A25B /* Staging-Kiosk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Staging-Kiosk.plist"; path = "/Users/arie/Documents/work/product/Kiosk/Staging-Kiosk.plist"; sourceTree = "<absolute>"; };
 		0005F6D11D1DB5640060A25B /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };
 		0005F6D21D1DB5640060A25B /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
@@ -233,10 +211,8 @@
 		000C4DC01D1D837D0069BA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000C4DC31D1D837D0069BA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		000C4DC51D1D837D0069BA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000C4DCA1D1D837D0069BA6D /* KioskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KioskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000C4DCE1D1D837D0069BA6D /* KioskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KioskTests.m; sourceTree = "<group>"; };
 		000C4DD01D1D837D0069BA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000C4DD51D1D837D0069BA6D /* KioskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KioskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000C4DD91D1D837D0069BA6D /* KioskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KioskUITests.m; sourceTree = "<group>"; };
 		000C4DDB1D1D837D0069BA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		000C4DE81D1D87560069BA6D /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
@@ -250,10 +226,13 @@
 		000C4DF71D1D8E700069BA6D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		000C4DFC1D1D90CF0069BA6D /* DonationMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationMainViewController.h; sourceTree = "<group>"; };
 		000C4DFD1D1D90CF0069BA6D /* DonationMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationMainViewController.m; sourceTree = "<group>"; };
+		001728521D201BFA00E8C2A0 /* libPods-Kiosk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Kiosk.a"; path = "Pods/../build/Debug-iphoneos/libPods-Kiosk.a"; sourceTree = "<group>"; };
+		00A97CDA1D201DEC0025ADA5 /* Kiosk Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiosk Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A97CDB1D201DED0025ADA5 /* Kiosk copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Kiosk copy-Info.plist"; path = "/Users/arie/Documents/work/product/Kiosk/Kiosk copy-Info.plist"; sourceTree = "<absolute>"; };
+		2606EF5236EAB6A0F0A09EE9 /* Pods-Kiosk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiosk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk.release.xcconfig"; sourceTree = "<group>"; };
 		3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KioskUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42F60341A668ABBECCF8DACA /* Pods-Kiosk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiosk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk.release.xcconfig"; sourceTree = "<group>"; };
+		44E2E40C4DAC0D3FCC8F62F3 /* Pods-Kiosk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiosk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk.debug.xcconfig"; sourceTree = "<group>"; };
 		4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kiosk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E5A3304D7B171E0257B934B /* Pods-Kiosk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiosk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk.debug.xcconfig"; sourceTree = "<group>"; };
 		7703470AB2903CE6896CC467 /* Pods-KioskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests.release.xcconfig"; sourceTree = "<group>"; };
 		82E51D257B0073F726D96228 /* Pods-KioskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KioskUITests/Pods-KioskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8847FB81AE0E8E17E70CCC74 /* libPods-KioskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KioskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,14 +241,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0005F6BC1D1DB3C00060A25B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0005F6BD1D1DB3C00060A25B /* libPods-Kiosk.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		000C4DAE1D1D837D0069BA6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,19 +249,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000C4DC71D1D837D0069BA6D /* Frameworks */ = {
+		00A97CC61D201DEC0025ADA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF2C500C04F55306D6EC17B /* libPods-KioskTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		000C4DD21D1D837D0069BA6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				229859AFD72697B575D0CB55 /* libPods-KioskUITests.a in Frameworks */,
+				00A97CC71D201DEC0025ADA5 /* libPods-Kiosk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +423,7 @@
 				000C4DB21D1D837D0069BA6D /* Products */,
 				C25EE5BD158EFF30D5BE3DBF /* Pods */,
 				0563A845613CD972F9A2BF69 /* Frameworks */,
+				00A97CDB1D201DED0025ADA5 /* Kiosk copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -467,9 +431,7 @@
 			isa = PBXGroup;
 			children = (
 				000C4DB11D1D837D0069BA6D /* Kiosk.app */,
-				000C4DCA1D1D837D0069BA6D /* KioskTests.xctest */,
-				000C4DD51D1D837D0069BA6D /* KioskUITests.xctest */,
-				0005F6CE1D1DB3C00060A25B /* Staging-Kiosk.app */,
+				00A97CDA1D201DEC0025ADA5 /* Kiosk Staging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -577,6 +539,7 @@
 		0563A845613CD972F9A2BF69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				001728521D201BFA00E8C2A0 /* libPods-Kiosk.a */,
 				4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */,
 				8847FB81AE0E8E17E70CCC74 /* libPods-KioskTests.a */,
 				3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */,
@@ -587,12 +550,12 @@
 		C25EE5BD158EFF30D5BE3DBF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E5A3304D7B171E0257B934B /* Pods-Kiosk.debug.xcconfig */,
-				42F60341A668ABBECCF8DACA /* Pods-Kiosk.release.xcconfig */,
 				9C5A83920B8F5B761E5F51D5 /* Pods-KioskTests.debug.xcconfig */,
 				7703470AB2903CE6896CC467 /* Pods-KioskTests.release.xcconfig */,
 				E903958EEDA0DD7D26B73FCE /* Pods-KioskUITests.debug.xcconfig */,
 				82E51D257B0073F726D96228 /* Pods-KioskUITests.release.xcconfig */,
+				44E2E40C4DAC0D3FCC8F62F3 /* Pods-Kiosk.debug.xcconfig */,
+				2606EF5236EAB6A0F0A09EE9 /* Pods-Kiosk.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -600,26 +563,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0005F69D1D1DB3C00060A25B /* Staging-Kiosk */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0005F6CB1D1DB3C00060A25B /* Build configuration list for PBXNativeTarget "Staging-Kiosk" */;
-			buildPhases = (
-				0005F69E1D1DB3C00060A25B /* [CP] Check Pods Manifest.lock */,
-				0005F69F1D1DB3C00060A25B /* Sources */,
-				0005F6BC1D1DB3C00060A25B /* Frameworks */,
-				0005F6BE1D1DB3C00060A25B /* Resources */,
-				0005F6C91D1DB3C00060A25B /* [CP] Embed Pods Frameworks */,
-				0005F6CA1D1DB3C00060A25B /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Staging-Kiosk";
-			productName = Kiosk;
-			productReference = 0005F6CE1D1DB3C00060A25B /* Staging-Kiosk.app */;
-			productType = "com.apple.product-type.application";
-		};
 		000C4DB01D1D837D0069BA6D /* Kiosk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000C4DDE1D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "Kiosk" */;
@@ -640,46 +583,25 @@
 			productReference = 000C4DB11D1D837D0069BA6D /* Kiosk.app */;
 			productType = "com.apple.product-type.application";
 		};
-		000C4DC91D1D837D0069BA6D /* KioskTests */ = {
+		00A97C991D201DEC0025ADA5 /* Kiosk Staging */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000C4DE11D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "KioskTests" */;
+			buildConfigurationList = 00A97CD71D201DEC0025ADA5 /* Build configuration list for PBXNativeTarget "Kiosk Staging" */;
 			buildPhases = (
-				3D78E25F5B0CB8E2E4748235 /* [CP] Check Pods Manifest.lock */,
-				000C4DC61D1D837D0069BA6D /* Sources */,
-				000C4DC71D1D837D0069BA6D /* Frameworks */,
-				000C4DC81D1D837D0069BA6D /* Resources */,
-				E304D51B1B68A8B04A099395 /* [CP] Embed Pods Frameworks */,
-				15B58B142450FB0FC9FC3B29 /* [CP] Copy Pods Resources */,
+				00A97C9A1D201DEC0025ADA5 /* [CP] Check Pods Manifest.lock */,
+				00A97C9B1D201DEC0025ADA5 /* Sources */,
+				00A97CC61D201DEC0025ADA5 /* Frameworks */,
+				00A97CC81D201DEC0025ADA5 /* Resources */,
+				00A97CD51D201DEC0025ADA5 /* [CP] Embed Pods Frameworks */,
+				00A97CD61D201DEC0025ADA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				000C4DCC1D1D837D0069BA6D /* PBXTargetDependency */,
 			);
-			name = KioskTests;
-			productName = KioskTests;
-			productReference = 000C4DCA1D1D837D0069BA6D /* KioskTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		000C4DD41D1D837D0069BA6D /* KioskUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 000C4DE41D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "KioskUITests" */;
-			buildPhases = (
-				279615C3FE228D5CC521F33D /* [CP] Check Pods Manifest.lock */,
-				000C4DD11D1D837D0069BA6D /* Sources */,
-				000C4DD21D1D837D0069BA6D /* Frameworks */,
-				000C4DD31D1D837D0069BA6D /* Resources */,
-				65041B4C0B5C2BF673064DDA /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				000C4DD71D1D837D0069BA6D /* PBXTargetDependency */,
-			);
-			name = KioskUITests;
-			productName = KioskUITests;
-			productReference = 000C4DD51D1D837D0069BA6D /* KioskUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "Kiosk Staging";
+			productName = Kiosk;
+			productReference = 00A97CDA1D201DEC0025ADA5 /* Kiosk Staging.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -692,14 +614,6 @@
 				TargetAttributes = {
 					000C4DB01D1D837D0069BA6D = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					000C4DC91D1D837D0069BA6D = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 000C4DB01D1D837D0069BA6D;
-					};
-					000C4DD41D1D837D0069BA6D = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 000C4DB01D1D837D0069BA6D;
 					};
 				};
 			};
@@ -717,33 +631,12 @@
 			projectRoot = "";
 			targets = (
 				000C4DB01D1D837D0069BA6D /* Kiosk */,
-				000C4DC91D1D837D0069BA6D /* KioskTests */,
-				000C4DD41D1D837D0069BA6D /* KioskUITests */,
-				0005F69D1D1DB3C00060A25B /* Staging-Kiosk */,
+				00A97C991D201DEC0025ADA5 /* Kiosk Staging */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0005F6BE1D1DB3C00060A25B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0005F6BF1D1DB3C00060A25B /* MuseoSans_100.otf in Resources */,
-				0005F6C01D1DB3C00060A25B /* LoginViewController.xib in Resources */,
-				0005F6C11D1DB3C00060A25B /* LaunchScreen.storyboard in Resources */,
-				0005F6C21D1DB3C00060A25B /* MuseoSans_500.otf in Resources */,
-				0005F70A1D1F087E0060A25B /* DonationListViewController.xib in Resources */,
-				0005F7131D1F088C0060A25B /* DonationTableViewCell.xib in Resources */,
-				0005F6C31D1DB3C00060A25B /* Assets.xcassets in Resources */,
-				0005F6C41D1DB3C00060A25B /* MuseoSans_700.otf in Resources */,
-				0005F6C51D1DB3C00060A25B /* DonationViewController.xib in Resources */,
-				0005F6C61D1DB3C00060A25B /* MuseoSans_300.otf in Resources */,
-				0005F6C71D1DB3C00060A25B /* Main.storyboard in Resources */,
-				0005F6C81D1DB3C00060A25B /* AlertViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		000C4DAF1D1D837D0069BA6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -763,24 +656,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000C4DC81D1D837D0069BA6D /* Resources */ = {
+		00A97CC81D201DEC0025ADA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		000C4DD31D1D837D0069BA6D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				00A97CC91D201DEC0025ADA5 /* MuseoSans_100.otf in Resources */,
+				00A97CCA1D201DEC0025ADA5 /* LoginViewController.xib in Resources */,
+				00A97CCB1D201DEC0025ADA5 /* LaunchScreen.storyboard in Resources */,
+				00A97CCC1D201DEC0025ADA5 /* MuseoSans_500.otf in Resources */,
+				00A97CCD1D201DEC0025ADA5 /* DonationListViewController.xib in Resources */,
+				00A97CCE1D201DEC0025ADA5 /* DonationTableViewCell.xib in Resources */,
+				00A97CCF1D201DEC0025ADA5 /* Assets.xcassets in Resources */,
+				00A97CD01D201DEC0025ADA5 /* MuseoSans_700.otf in Resources */,
+				00A97CD11D201DEC0025ADA5 /* DonationViewController.xib in Resources */,
+				00A97CD21D201DEC0025ADA5 /* MuseoSans_300.otf in Resources */,
+				00A97CD31D201DEC0025ADA5 /* Main.storyboard in Resources */,
+				00A97CD41D201DEC0025ADA5 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0005F69E1D1DB3C00060A25B /* [CP] Check Pods Manifest.lock */ = {
+		00A97C9A1D201DEC0025ADA5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -795,7 +693,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		0005F6C91D1DB3C00060A25B /* [CP] Embed Pods Frameworks */ = {
+		00A97CD51D201DEC0025ADA5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -810,7 +708,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0005F6CA1D1DB3C00060A25B /* [CP] Copy Pods Resources */ = {
+		00A97CD61D201DEC0025ADA5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -823,51 +721,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		15B58B142450FB0FC9FC3B29 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		279615C3FE228D5CC521F33D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3D78E25F5B0CB8E2E4748235 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		5A7ECB4C0E5AFD186ED40A8D /* [CP] Check Pods Manifest.lock */ = {
@@ -900,21 +753,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		65041B4C0B5C2BF673064DDA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KioskUITests/Pods-KioskUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6F4B08D8FE19EA2752141B86 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -930,73 +768,9 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E304D51B1B68A8B04A099395 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0005F69F1D1DB3C00060A25B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0005F6A01D1DB3C00060A25B /* AuthResponse.m in Sources */,
-				0005F6A11D1DB3C00060A25B /* UINavigationController+ModalOverlay.m in Sources */,
-				0005F6F21D1DE37E0060A25B /* ProjectEvent.m in Sources */,
-				0005F6A21D1DB3C00060A25B /* NSString+Validation.m in Sources */,
-				0005F7171D1F08940060A25B /* DonationListDataSource.m in Sources */,
-				0005F6A41D1DB3C00060A25B /* APIManager.m in Sources */,
-				0005F6A51D1DB3C00060A25B /* AuthData.m in Sources */,
-				0005F6F41D1DE37E0060A25B /* ProjectParticipant.m in Sources */,
-				0005F6A61D1DB3C00060A25B /* BaseViewController.m in Sources */,
-				0005F70C1D1F087E0060A25B /* DonationView.m in Sources */,
-				0005F6D41D1DB5640060A25B /* APIHelper.m in Sources */,
-				0005F7001D1EFFDF0060A25B /* KioskNavigationController.m in Sources */,
-				0005F6A71D1DB3C00060A25B /* CurrencyHelper.m in Sources */,
-				0005F6F81D1DE37E0060A25B /* ProjectProject.m in Sources */,
-				0005F6A81D1DB3C00060A25B /* DonationViewController.m in Sources */,
-				0005F6A91D1DB3C00060A25B /* PopupSuperView.m in Sources */,
-				0005F7081D1F087E0060A25B /* DonationListViewController.m in Sources */,
-				0005F6AA1D1DB3C00060A25B /* AuthActivateEmail.m in Sources */,
-				0005F6AB1D1DB3C00060A25B /* UIColor+Masjidpay.m in Sources */,
-				0005F6AC1D1DB3C00060A25B /* AppDelegate.m in Sources */,
-				0005F7111D1F088C0060A25B /* DonationTableViewCell.m in Sources */,
-				0005F6DC1D1DE27D0060A25B /* PaymentListData.m in Sources */,
-				0005F6AD1D1DB3C00060A25B /* AuthAddress.m in Sources */,
-				0005F6DE1D1DE27D0060A25B /* PaymentListResponse.m in Sources */,
-				0005F6F01D1DE37E0060A25B /* ProjectData.m in Sources */,
-				0005F6AE1D1DB3C00060A25B /* MainViewController.m in Sources */,
-				0005F6AF1D1DB3C00060A25B /* AuthStripe.m in Sources */,
-				0005F6B01D1DB3C00060A25B /* LoginViewController.m in Sources */,
-				0005F6FC1D1DE37E0060A25B /* ProjectVolunteer.m in Sources */,
-				0005F6B11D1DB3C00060A25B /* main.m in Sources */,
-				0005F6B21D1DB3C00060A25B /* PaddedLabel.m in Sources */,
-				0005F6B31D1DB3C00060A25B /* CustomFormTextField.m in Sources */,
-				0005F6FA1D1DE37E0060A25B /* ProjectResponse.m in Sources */,
-				0005F6B41D1DB3C00060A25B /* DashboardViewController.m in Sources */,
-				0005F6B51D1DB3C00060A25B /* DonationMainViewController.m in Sources */,
-				0005F6B61D1DB3C00060A25B /* AuthGeoLocation.m in Sources */,
-				0005F6B71D1DB3C00060A25B /* Util.m in Sources */,
-				0005F6B81D1DB3C00060A25B /* SeparatorLineView.m in Sources */,
-				0005F6B91D1DB3C00060A25B /* UIViewController+ModalOverlay.m in Sources */,
-				0005F6BA1D1DB3C00060A25B /* TransparentView.m in Sources */,
-				0005F6F61D1DE37E0060A25B /* ProjectPostMeta.m in Sources */,
-				0005F6BB1D1DB3C00060A25B /* AlertViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		000C4DAD1D1D837D0069BA6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1046,36 +820,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000C4DC61D1D837D0069BA6D /* Sources */ = {
+		00A97C9B1D201DEC0025ADA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000C4DCF1D1D837D0069BA6D /* KioskTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		000C4DD11D1D837D0069BA6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				000C4DDA1D1D837D0069BA6D /* KioskUITests.m in Sources */,
+				00A97C9C1D201DEC0025ADA5 /* AuthResponse.m in Sources */,
+				00A97C9D1D201DEC0025ADA5 /* UINavigationController+ModalOverlay.m in Sources */,
+				00A97C9E1D201DEC0025ADA5 /* ProjectEvent.m in Sources */,
+				00A97C9F1D201DEC0025ADA5 /* NSString+Validation.m in Sources */,
+				00A97CA01D201DEC0025ADA5 /* DonationListDataSource.m in Sources */,
+				00A97CA11D201DEC0025ADA5 /* APIManager.m in Sources */,
+				00A97CA21D201DEC0025ADA5 /* AuthData.m in Sources */,
+				00A97CA31D201DEC0025ADA5 /* ProjectParticipant.m in Sources */,
+				00A97CA41D201DEC0025ADA5 /* BaseViewController.m in Sources */,
+				00A97CA51D201DEC0025ADA5 /* DonationView.m in Sources */,
+				00A97CA61D201DEC0025ADA5 /* APIHelper.m in Sources */,
+				00A97CA71D201DEC0025ADA5 /* KioskNavigationController.m in Sources */,
+				00A97CA81D201DEC0025ADA5 /* CurrencyHelper.m in Sources */,
+				00A97CA91D201DEC0025ADA5 /* ProjectProject.m in Sources */,
+				00A97CAA1D201DEC0025ADA5 /* DonationViewController.m in Sources */,
+				00A97CAB1D201DEC0025ADA5 /* PopupSuperView.m in Sources */,
+				00A97CAC1D201DEC0025ADA5 /* DonationListViewController.m in Sources */,
+				00A97CAD1D201DEC0025ADA5 /* AuthActivateEmail.m in Sources */,
+				00A97CAE1D201DEC0025ADA5 /* UIColor+Masjidpay.m in Sources */,
+				00A97CAF1D201DEC0025ADA5 /* AppDelegate.m in Sources */,
+				00A97CB01D201DEC0025ADA5 /* DonationTableViewCell.m in Sources */,
+				00A97CB11D201DEC0025ADA5 /* PaymentListData.m in Sources */,
+				00A97CB21D201DEC0025ADA5 /* AuthAddress.m in Sources */,
+				00A97CB31D201DEC0025ADA5 /* PaymentListResponse.m in Sources */,
+				00A97CB41D201DEC0025ADA5 /* ProjectData.m in Sources */,
+				00A97CB51D201DEC0025ADA5 /* MainViewController.m in Sources */,
+				00A97CB61D201DEC0025ADA5 /* AuthStripe.m in Sources */,
+				00A97CB71D201DEC0025ADA5 /* LoginViewController.m in Sources */,
+				00A97CB81D201DEC0025ADA5 /* ProjectVolunteer.m in Sources */,
+				00A97CB91D201DEC0025ADA5 /* main.m in Sources */,
+				00A97CBA1D201DEC0025ADA5 /* PaddedLabel.m in Sources */,
+				00A97CBB1D201DEC0025ADA5 /* CustomFormTextField.m in Sources */,
+				00A97CBC1D201DEC0025ADA5 /* ProjectResponse.m in Sources */,
+				00A97CBD1D201DEC0025ADA5 /* DashboardViewController.m in Sources */,
+				00A97CBE1D201DEC0025ADA5 /* DonationMainViewController.m in Sources */,
+				00A97CBF1D201DEC0025ADA5 /* AuthGeoLocation.m in Sources */,
+				00A97CC01D201DEC0025ADA5 /* Util.m in Sources */,
+				00A97CC11D201DEC0025ADA5 /* SeparatorLineView.m in Sources */,
+				00A97CC21D201DEC0025ADA5 /* UIViewController+ModalOverlay.m in Sources */,
+				00A97CC31D201DEC0025ADA5 /* TransparentView.m in Sources */,
+				00A97CC41D201DEC0025ADA5 /* ProjectPostMeta.m in Sources */,
+				00A97CC51D201DEC0025ADA5 /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		000C4DCC1D1D837D0069BA6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 000C4DB01D1D837D0069BA6D /* Kiosk */;
-			targetProxy = 000C4DCB1D1D837D0069BA6D /* PBXContainerItemProxy */;
-		};
-		000C4DD71D1D837D0069BA6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 000C4DB01D1D837D0069BA6D /* Kiosk */;
-			targetProxy = 000C4DD61D1D837D0069BA6D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		000C4DBD1D1D837D0069BA6D /* Main.storyboard */ = {
@@ -1097,42 +891,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0005F6CC1D1DB3C00060A25B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E5A3304D7B171E0257B934B /* Pods-Kiosk.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					STAGING,
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Staging-Kiosk.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.staging.masjidpay.Kiosk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Debug;
-		};
-		0005F6CD1D1DB3C00060A25B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42F60341A668ABBECCF8DACA /* Pods-Kiosk.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"COCOAPODS=1",
-					STAGING,
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Staging-Kiosk.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.staging.masjidpay.Kiosk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Release;
-		};
 		000C4DDC1D1D837D0069BA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1219,7 +977,7 @@
 		};
 		000C4DDF1D1D837D0069BA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E5A3304D7B171E0257B934B /* Pods-Kiosk.debug.xcconfig */;
+			baseConfigurationReference = 44E2E40C4DAC0D3FCC8F62F3 /* Pods-Kiosk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kiosk/Info.plist;
@@ -1231,7 +989,7 @@
 		};
 		000C4DE01D1D837D0069BA6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42F60341A668ABBECCF8DACA /* Pods-Kiosk.release.xcconfig */;
+			baseConfigurationReference = 2606EF5236EAB6A0F0A09EE9 /* Pods-Kiosk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kiosk/Info.plist;
@@ -1241,68 +999,43 @@
 			};
 			name = Release;
 		};
-		000C4DE21D1D837D0069BA6D /* Debug */ = {
+		00A97CD81D201DEC0025ADA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C5A83920B8F5B761E5F51D5 /* Pods-KioskTests.debug.xcconfig */;
+			baseConfigurationReference = 44E2E40C4DAC0D3FCC8F62F3 /* Pods-Kiosk.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = KioskTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.KioskTests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					STAGING,
+				);
+				INFOPLIST_FILE = "Kiosk copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.Kiosk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kiosk.app/Kiosk";
 			};
 			name = Debug;
 		};
-		000C4DE31D1D837D0069BA6D /* Release */ = {
+		00A97CD91D201DEC0025ADA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7703470AB2903CE6896CC467 /* Pods-KioskTests.release.xcconfig */;
+			baseConfigurationReference = 2606EF5236EAB6A0F0A09EE9 /* Pods-Kiosk.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = KioskTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.KioskTests;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					STAGING,
+				);
+				INFOPLIST_FILE = "Kiosk copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.Kiosk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kiosk.app/Kiosk";
-			};
-			name = Release;
-		};
-		000C4DE51D1D837D0069BA6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E903958EEDA0DD7D26B73FCE /* Pods-KioskUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = KioskUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.KioskUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Kiosk;
-			};
-			name = Debug;
-		};
-		000C4DE61D1D837D0069BA6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82E51D257B0073F726D96228 /* Pods-KioskUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = KioskUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.KioskUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Kiosk;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0005F6CB1D1DB3C00060A25B /* Build configuration list for PBXNativeTarget "Staging-Kiosk" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0005F6CC1D1DB3C00060A25B /* Debug */,
-				0005F6CD1D1DB3C00060A25B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		000C4DAC1D1D837D0069BA6D /* Build configuration list for PBXProject "Kiosk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1321,20 +1054,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000C4DE11D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "KioskTests" */ = {
+		00A97CD71D201DEC0025ADA5 /* Build configuration list for PBXNativeTarget "Kiosk Staging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000C4DE21D1D837D0069BA6D /* Debug */,
-				000C4DE31D1D837D0069BA6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		000C4DE41D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "KioskUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				000C4DE51D1D837D0069BA6D /* Debug */,
-				000C4DE61D1D837D0069BA6D /* Release */,
+				00A97CD81D201DEC0025ADA5 /* Debug */,
+				00A97CD91D201DEC0025ADA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

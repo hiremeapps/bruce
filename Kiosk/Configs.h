@@ -52,6 +52,7 @@ static NSString * const PREFS_CREDENTIALS_USER_EMAIL= @"prefs.credentials.user.e
 static NSString * const PREFS_CREDENTIALS_USER_PHONE_NUMBER = @"prefs.credentials.user.phoneNumber";
 static NSString * const PREFS_CREDENTIALS_USER_ID = @"prefs.credentials.user.id";
 static NSString * const PREFS_CREDENTIALS_USER_NAME = @"prefs.credentials.user.name";
+static NSString * const PREFS_CREDENTIALS_USER_PASSWORD = @"prefs.credentials.user.password";
 
 
 ///tracking

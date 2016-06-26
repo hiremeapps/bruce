@@ -7,20 +7,6 @@ target 'Kiosk' do
     pod 'AFNetworkActivityLogger', '~> 2.0'
     pod "TSMessages"
     pod 'UIImage-Helpers'
-    
-    # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-    # use_frameworks!
-    
-    # Pods for Kiosk
-    
-    target 'KioskTests' do
-        inherit! :search_paths
-        # Pods for testing
-    end
-    
-    target 'KioskUITests' do
-        inherit! :search_paths
-        # Pods for testing
-    end
-    
+    pod 'JFBCrypt', '~> 0.1'
+    pod 'LCLoadingHUD'
 end

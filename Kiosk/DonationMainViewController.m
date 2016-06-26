@@ -13,6 +13,7 @@
 #import "Configs.h"
 #import "CustomFormTextField.h"
 #import "Util.h"
+#import "AuthDataModels.h"
 #import "UINavigationController+ModalOverlay.h"
 #import "UIColor+Masjidpay.h"
 #import "ProjectResponse.h"
@@ -77,16 +78,22 @@
     [self.agreeTextView sizeThatFits:CGSizeMake(CGRectGetWidth(self.agreeTextView.frame), FLT_MAX)];
     self.heightAgreeTextViewLayoutConstraint.constant = CGRectGetHeight(self.agreeTextView.frame);
     
-    
+    if (![AuthResponse userIsLoggedIn]) {
+        return;
+    }
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self showLoading];
         [PaymentListResponse paymentList:@{@"token":[[NSUserDefaults standardUserDefaults] objectForKey:PREFS_CREDENTIALS_USER_TOKEN]} CompletionBlock:^(PaymentListResponse *response, NSError *error) {
+            [self hideLoading];
             if (!error) {
                 self.response = response.data;
             }
         }];
     });
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self showLoading];
         [ProjectResponse projectList:@{@"token":[[NSUserDefaults standardUserDefaults] objectForKey:PREFS_CREDENTIALS_USER_TOKEN]} CompletionBlock:^(ProjectResponse *response, NSError *error) {
+            [self hideLoading];
             if (!error) {
                 self.project = response.data;
             }

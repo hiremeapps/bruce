@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Kiosk copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>Kiosk copy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Kiosk.xcscheme</key>
 		<dict>
@@ -35,6 +40,11 @@
 			<true/>
 		</dict>
 		<key>000C4DD41D1D837D0069BA6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>00A97C991D201DEC0025ADA5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -10,4 +10,7 @@
 
 @interface BaseViewController : UIViewController
 - (void)showLogin;
+- (void)showLoading;
+- (void)hideLoading;
+- (void)showNotificationWithTitle:(NSString *)title message:(NSString *)message isError:(BOOL)isError;
 @end

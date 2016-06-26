@@ -86,7 +86,20 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Super" id="G9l-cD-GGK"/>
+                    <navigationItem key="navigationItem" title="Super" id="G9l-cD-GGK">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="Gct-D4-HG7">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="logoutButtonDidTapped:" destination="BYZ-38-t0r" id="3FU-BP-d2T"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Show Full Screen" id="qFo-nD-ZPu">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="fullScreenDidtapped:" destination="BYZ-38-t0r" id="Muz-br-W7n"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
@@ -97,7 +110,7 @@
         <!--Test-->
         <scene sceneID="auH-xl-6US">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Atg-5a-X9O" customClass="DashboardViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DashboardViewController" automaticallyAdjustsScrollViewInsets="NO" id="Atg-5a-X9O" customClass="DashboardViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GNH-eN-tVB"/>
                         <viewControllerLayoutGuide type="bottom" id="6ms-8U-kiO"/>
