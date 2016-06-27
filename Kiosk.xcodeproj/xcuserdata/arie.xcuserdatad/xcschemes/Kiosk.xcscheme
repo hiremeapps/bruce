@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "000C4DB01D1D837D0069BA6D"
-               BuildableName = "Kiosk.app"
-               BlueprintName = "Kiosk"
+               BuildableName = "Masjidpay Kiosk.app"
+               BlueprintName = "Masjidpay Kiosk"
                ReferencedContainer = "container:Kiosk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -53,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000C4DB01D1D837D0069BA6D"
-            BuildableName = "Kiosk.app"
-            BlueprintName = "Kiosk"
+            BuildableName = "Masjidpay Kiosk.app"
+            BlueprintName = "Masjidpay Kiosk"
             ReferencedContainer = "container:Kiosk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000C4DB01D1D837D0069BA6D"
-            BuildableName = "Kiosk.app"
-            BlueprintName = "Kiosk"
+            BuildableName = "Masjidpay Kiosk.app"
+            BlueprintName = "Masjidpay Kiosk"
             ReferencedContainer = "container:Kiosk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000C4DB01D1D837D0069BA6D"
-            BuildableName = "Kiosk.app"
-            BlueprintName = "Kiosk"
+            BuildableName = "Masjidpay Kiosk.app"
+            BlueprintName = "Masjidpay Kiosk"
             ReferencedContainer = "container:Kiosk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

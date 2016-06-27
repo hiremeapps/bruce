@@ -13,4 +13,5 @@
 - (void)showLoading;
 - (void)hideLoading;
 - (void)showNotificationWithTitle:(NSString *)title message:(NSString *)message isError:(BOOL)isError;
+- (void)openWebViewWithTitle:(NSString *)title andUrlToLoad:(NSString *)url;
 @end

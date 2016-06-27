@@ -103,7 +103,6 @@
 		00A97CC31D201DEC0025ADA5 /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6941D1DAEEB0060A25B /* TransparentView.m */; };
 		00A97CC41D201DEC0025ADA5 /* ProjectPostMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6E81D1DE37E0060A25B /* ProjectPostMeta.m */; };
 		00A97CC51D201DEC0025ADA5 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005F6891D1DAED20060A25B /* AlertViewController.m */; };
-		00A97CC71D201DEC0025ADA5 /* libPods-Kiosk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */; };
 		00A97CC91D201DEC0025ADA5 /* MuseoSans_100.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6701D1DAE6F0060A25B /* MuseoSans_100.otf */; };
 		00A97CCA1D201DEC0025ADA5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F64D1D1DA83B0060A25B /* LoginViewController.xib */; };
 		00A97CCB1D201DEC0025ADA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DC21D1D837D0069BA6D /* LaunchScreen.storyboard */; };
@@ -116,7 +115,11 @@
 		00A97CD21D201DEC0025ADA5 /* MuseoSans_300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0005F6711D1DAE6F0060A25B /* MuseoSans_300.otf */; };
 		00A97CD31D201DEC0025ADA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000C4DBD1D1D837D0069BA6D /* Main.storyboard */; };
 		00A97CD41D201DEC0025ADA5 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0005F68A1D1DAED20060A25B /* AlertViewController.xib */; };
-		56DB0BC553E8D84652B77A64 /* libPods-Kiosk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */; };
+		00A97CE01D2039900025ADA5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A97CDE1D2039900025ADA5 /* WebViewController.m */; };
+		00A97CE11D2039900025ADA5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A97CDE1D2039900025ADA5 /* WebViewController.m */; };
+		00A97CE21D2039900025ADA5 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A97CDF1D2039900025ADA5 /* WebViewController.xib */; };
+		00A97CE31D2039900025ADA5 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A97CDF1D2039900025ADA5 /* WebViewController.xib */; };
+		F04FC21A3FE3E8E3589CD8B1 /* libPods-Masjidpay Kiosk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FA8A19EB2F38D7B9130FEB /* libPods-Masjidpay Kiosk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -203,7 +206,7 @@
 		0005F70F1D1F088C0060A25B /* DonationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonationTableViewCell.xib; sourceTree = "<group>"; };
 		0005F7141D1F08940060A25B /* DonationListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonationListDataSource.h; sourceTree = "<group>"; };
 		0005F7151D1F08940060A25B /* DonationListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonationListDataSource.m; sourceTree = "<group>"; };
-		000C4DB11D1D837D0069BA6D /* Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000C4DB11D1D837D0069BA6D /* Masjidpay Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masjidpay Kiosk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		000C4DB51D1D837D0069BA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		000C4DB71D1D837D0069BA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		000C4DB81D1D837D0069BA6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -229,14 +232,18 @@
 		001728521D201BFA00E8C2A0 /* libPods-Kiosk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Kiosk.a"; path = "Pods/../build/Debug-iphoneos/libPods-Kiosk.a"; sourceTree = "<group>"; };
 		00A97CDA1D201DEC0025ADA5 /* Kiosk Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiosk Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A97CDB1D201DED0025ADA5 /* Kiosk copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Kiosk copy-Info.plist"; path = "/Users/arie/Documents/work/product/Kiosk/Kiosk copy-Info.plist"; sourceTree = "<absolute>"; };
-		2606EF5236EAB6A0F0A09EE9 /* Pods-Kiosk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiosk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk.release.xcconfig"; sourceTree = "<group>"; };
+		00A97CDD1D2039900025ADA5 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		00A97CDE1D2039900025ADA5 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		00A97CDF1D2039900025ADA5 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KioskUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E2E40C4DAC0D3FCC8F62F3 /* Pods-Kiosk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiosk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk.debug.xcconfig"; sourceTree = "<group>"; };
 		4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kiosk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7703470AB2903CE6896CC467 /* Pods-KioskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests.release.xcconfig"; sourceTree = "<group>"; };
+		804F2F54D46DD58B93F53403 /* Pods-Masjidpay Kiosk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masjidpay Kiosk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Masjidpay Kiosk/Pods-Masjidpay Kiosk.debug.xcconfig"; sourceTree = "<group>"; };
 		82E51D257B0073F726D96228 /* Pods-KioskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KioskUITests/Pods-KioskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8847FB81AE0E8E17E70CCC74 /* libPods-KioskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KioskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5A83920B8F5B761E5F51D5 /* Pods-KioskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KioskTests/Pods-KioskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FA8A19EB2F38D7B9130FEB /* libPods-Masjidpay Kiosk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masjidpay Kiosk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FEDB765ED865081EFA7674 /* Pods-Masjidpay Kiosk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masjidpay Kiosk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Masjidpay Kiosk/Pods-Masjidpay Kiosk.release.xcconfig"; sourceTree = "<group>"; };
 		E903958EEDA0DD7D26B73FCE /* Pods-KioskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KioskUITests/Pods-KioskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,7 +252,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56DB0BC553E8D84652B77A64 /* libPods-Kiosk.a in Frameworks */,
+				F04FC21A3FE3E8E3589CD8B1 /* libPods-Masjidpay Kiosk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +260,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A97CC71D201DEC0025ADA5 /* libPods-Kiosk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +436,7 @@
 		000C4DB21D1D837D0069BA6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000C4DB11D1D837D0069BA6D /* Kiosk.app */,
+				000C4DB11D1D837D0069BA6D /* Masjidpay Kiosk.app */,
 				00A97CDA1D201DEC0025ADA5 /* Kiosk Staging.app */,
 			);
 			name = Products;
@@ -439,6 +445,7 @@
 		000C4DB31D1D837D0069BA6D /* Kiosk */ = {
 			isa = PBXGroup;
 			children = (
+				00A97CDC1D2039650025ADA5 /* Webview */,
 				0005F6D01D1DB55C0060A25B /* Helper */,
 				0005F6991D1DB23B0060A25B /* Manager */,
 				0005F6651D1DAE350060A25B /* Common */,
@@ -536,6 +543,16 @@
 			name = "Donation Main";
 			sourceTree = "<group>";
 		};
+		00A97CDC1D2039650025ADA5 /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				00A97CDD1D2039900025ADA5 /* WebViewController.h */,
+				00A97CDE1D2039900025ADA5 /* WebViewController.m */,
+				00A97CDF1D2039900025ADA5 /* WebViewController.xib */,
+			);
+			name = Webview;
+			sourceTree = "<group>";
+		};
 		0563A845613CD972F9A2BF69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -543,6 +560,7 @@
 				4FED98358E840D66A56E7B58 /* libPods-Kiosk.a */,
 				8847FB81AE0E8E17E70CCC74 /* libPods-KioskTests.a */,
 				3B65D57F6EF56BCE8A11908D /* libPods-KioskUITests.a */,
+				D9FA8A19EB2F38D7B9130FEB /* libPods-Masjidpay Kiosk.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -554,8 +572,8 @@
 				7703470AB2903CE6896CC467 /* Pods-KioskTests.release.xcconfig */,
 				E903958EEDA0DD7D26B73FCE /* Pods-KioskUITests.debug.xcconfig */,
 				82E51D257B0073F726D96228 /* Pods-KioskUITests.release.xcconfig */,
-				44E2E40C4DAC0D3FCC8F62F3 /* Pods-Kiosk.debug.xcconfig */,
-				2606EF5236EAB6A0F0A09EE9 /* Pods-Kiosk.release.xcconfig */,
+				804F2F54D46DD58B93F53403 /* Pods-Masjidpay Kiosk.debug.xcconfig */,
+				E4FEDB765ED865081EFA7674 /* Pods-Masjidpay Kiosk.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -563,9 +581,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000C4DB01D1D837D0069BA6D /* Kiosk */ = {
+		000C4DB01D1D837D0069BA6D /* Masjidpay Kiosk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000C4DDE1D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "Kiosk" */;
+			buildConfigurationList = 000C4DDE1D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "Masjidpay Kiosk" */;
 			buildPhases = (
 				5A7ECB4C0E5AFD186ED40A8D /* [CP] Check Pods Manifest.lock */,
 				000C4DAD1D1D837D0069BA6D /* Sources */,
@@ -573,14 +591,15 @@
 				000C4DAF1D1D837D0069BA6D /* Resources */,
 				6F4B08D8FE19EA2752141B86 /* [CP] Embed Pods Frameworks */,
 				5D63E1778F96802E6E235807 /* [CP] Copy Pods Resources */,
+				00A97CE61D20DDFB0025ADA5 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Kiosk;
+			name = "Masjidpay Kiosk";
 			productName = Kiosk;
-			productReference = 000C4DB11D1D837D0069BA6D /* Kiosk.app */;
+			productReference = 000C4DB11D1D837D0069BA6D /* Masjidpay Kiosk.app */;
 			productType = "com.apple.product-type.application";
 		};
 		00A97C991D201DEC0025ADA5 /* Kiosk Staging */ = {
@@ -614,6 +633,7 @@
 				TargetAttributes = {
 					000C4DB01D1D837D0069BA6D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F6VUUBESF5;
 					};
 				};
 			};
@@ -630,7 +650,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				000C4DB01D1D837D0069BA6D /* Kiosk */,
+				000C4DB01D1D837D0069BA6D /* Masjidpay Kiosk */,
 				00A97C991D201DEC0025ADA5 /* Kiosk Staging */,
 			);
 		};
@@ -644,6 +664,7 @@
 				0005F6741D1DAE6F0060A25B /* MuseoSans_100.otf in Resources */,
 				0005F64F1D1DA83B0060A25B /* LoginViewController.xib in Resources */,
 				000C4DC41D1D837D0069BA6D /* LaunchScreen.storyboard in Resources */,
+				00A97CE21D2039900025ADA5 /* WebViewController.xib in Resources */,
 				0005F6771D1DAE6F0060A25B /* MuseoSans_500.otf in Resources */,
 				0005F7091D1F087E0060A25B /* DonationListViewController.xib in Resources */,
 				0005F7121D1F088C0060A25B /* DonationTableViewCell.xib in Resources */,
@@ -663,6 +684,7 @@
 				00A97CC91D201DEC0025ADA5 /* MuseoSans_100.otf in Resources */,
 				00A97CCA1D201DEC0025ADA5 /* LoginViewController.xib in Resources */,
 				00A97CCB1D201DEC0025ADA5 /* LaunchScreen.storyboard in Resources */,
+				00A97CE31D2039900025ADA5 /* WebViewController.xib in Resources */,
 				00A97CCC1D201DEC0025ADA5 /* MuseoSans_500.otf in Resources */,
 				00A97CCD1D201DEC0025ADA5 /* DonationListViewController.xib in Resources */,
 				00A97CCE1D201DEC0025ADA5 /* DonationTableViewCell.xib in Resources */,
@@ -723,6 +745,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		00A97CE61D20DDFB0025ADA5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 4165a61ef093b00352a634db8c625bdbd68ff756 eb6ccec33a3a87d11b8db531559c5d421872993e1fe44eaff47e42ff86e26e3d";
+		};
 		5A7ECB4C0E5AFD186ED40A8D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -750,7 +785,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Masjidpay Kiosk/Pods-Masjidpay Kiosk-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6F4B08D8FE19EA2752141B86 /* [CP] Embed Pods Frameworks */ = {
@@ -765,7 +800,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiosk/Pods-Kiosk-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Masjidpay Kiosk/Pods-Masjidpay Kiosk-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -813,6 +848,7 @@
 				0005F6621D1DA9780060A25B /* AuthGeoLocation.m in Sources */,
 				0005F6681D1DAE3C0060A25B /* Util.m in Sources */,
 				0005F67E1D1DAEAC0060A25B /* SeparatorLineView.m in Sources */,
+				00A97CE01D2039900025ADA5 /* WebViewController.m in Sources */,
 				0005F68F1D1DAEDE0060A25B /* UIViewController+ModalOverlay.m in Sources */,
 				0005F6951D1DAEEB0060A25B /* TransparentView.m in Sources */,
 				0005F6F51D1DE37E0060A25B /* ProjectPostMeta.m in Sources */,
@@ -862,6 +898,7 @@
 				00A97CBF1D201DEC0025ADA5 /* AuthGeoLocation.m in Sources */,
 				00A97CC01D201DEC0025ADA5 /* Util.m in Sources */,
 				00A97CC11D201DEC0025ADA5 /* SeparatorLineView.m in Sources */,
+				00A97CE11D2039900025ADA5 /* WebViewController.m in Sources */,
 				00A97CC21D201DEC0025ADA5 /* UIViewController+ModalOverlay.m in Sources */,
 				00A97CC31D201DEC0025ADA5 /* TransparentView.m in Sources */,
 				00A97CC41D201DEC0025ADA5 /* ProjectPostMeta.m in Sources */,
@@ -977,31 +1014,36 @@
 		};
 		000C4DDF1D1D837D0069BA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44E2E40C4DAC0D3FCC8F62F3 /* Pods-Kiosk.debug.xcconfig */;
+			baseConfigurationReference = 804F2F54D46DD58B93F53403 /* Pods-Masjidpay Kiosk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Kiosk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.Kiosk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.kiosk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		000C4DE01D1D837D0069BA6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2606EF5236EAB6A0F0A09EE9 /* Pods-Kiosk.release.xcconfig */;
+			baseConfigurationReference = E4FEDB765ED865081EFA7674 /* Pods-Masjidpay Kiosk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Kiosk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.Kiosk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.kiosk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		00A97CD81D201DEC0025ADA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44E2E40C4DAC0D3FCC8F62F3 /* Pods-Kiosk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1011,14 +1053,13 @@
 				);
 				INFOPLIST_FILE = "Kiosk copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.Kiosk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.kiosk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		00A97CD91D201DEC0025ADA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2606EF5236EAB6A0F0A09EE9 /* Pods-Kiosk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1028,7 +1069,7 @@
 				);
 				INFOPLIST_FILE = "Kiosk copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.Kiosk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masjidpay.kiosk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1045,7 +1086,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000C4DDE1D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "Kiosk" */ = {
+		000C4DDE1D1D837D0069BA6D /* Build configuration list for PBXNativeTarget "Masjidpay Kiosk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				000C4DDF1D1D837D0069BA6D /* Debug */,

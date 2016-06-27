@@ -19,19 +19,19 @@ static const float NAVIGATION_BAR_HEIGHT = 44.0f;
 
 #ifdef STAGING
 static NSString * const BATCH_KEY = @"DEV57604602F089429E2E0C232E0EA";
-static NSString * const BASE_API_URL = @"http://staging-api.masjidpay.com";
 static NSString * const MIXPANEL_TOKEN = @"d95cf0d7d688a8f9405a5afb7a741858";
 static NSString * const MIXPANEL_API_KEY = @"2f4860cfa790b9047b5385f504ca2716";
-//static NSString * const BASE_API_URL = @"http://localhost:3001";
-static NSString * const BASE_PAYMENT_URL = @"http://staging-app.masjidpay.com";
+
 //static NSString * const BASE_PAYMENT_URL = @"http://localhost:3000";
 
 #else
 static NSString * const BATCH_KEY = @"57604602ED4021429E4B632E9F98FA";
 static NSString * const MIXPANEL_TOKEN = @"3283cd2914683b95f2795a7cd4d7c372";
 static NSString * const MIXPANEL_API_KEY = @"847b3414e12f317479894d7759bf3ea3";
-static NSString * const BASE_API_URL = @"http://api.masjidpay.com";
-static NSString * const BASE_PAYMENT_URL = @"http://app.masjidpay.com";
+static NSString * const BASE_PAYMENT_URL = @"http://staging-app.masjidpay.com";
+static NSString * const BASE_API_URL = @"http://staging-api.masjidpay.com";
+//static NSString * const BASE_API_URL = @"http://api.masjidpay.com";
+//static NSString * const BASE_PAYMENT_URL = @"http://app.masjidpay.com";
 #endif
 
 static NSString * const WEB_PAYMENT_URL = @"kiosk/webpayment/card?";

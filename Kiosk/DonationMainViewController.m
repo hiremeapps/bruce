@@ -75,6 +75,7 @@
     [attributedString addAttribute:NSFontAttributeName value:[UIFont fontWithName:FONT_NAME_DEFAULT size:14.0f] range:NSMakeRange(0, attributedString.length)];
     self.agreeTextView.attributedText = attributedString;
     self.agreeTextView.linkTextAttributes = @{NSForegroundColorAttributeName:[UIColor mp_greenColor]};
+    self.agreeTextView.delegate = self;
     [self.agreeTextView sizeThatFits:CGSizeMake(CGRectGetWidth(self.agreeTextView.frame), FLT_MAX)];
     self.heightAgreeTextViewLayoutConstraint.constant = CGRectGetHeight(self.agreeTextView.frame);
     
@@ -352,5 +353,22 @@
         }
         
     }
+}
+- (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange {
+    NSString *urlString = [URL absoluteString];
+    if ([[urlString lowercaseString] isEqualToString:[@"tnc://" lowercaseString]]) {
+        [self termsAndConditionLinkDidTapped];
+    }
+    else if ([[urlString lowercaseString] isEqualToString:[@"privacy://" lowercaseString]]) {
+        [self privacyLinkDidTapped];
+    }
+    return NO;
+}
+- (void)termsAndConditionLinkDidTapped {
+    [self openWebViewWithTitle:@"Terms of Service" andUrlToLoad:TOSA_URL];
+}
+
+- (void)privacyLinkDidTapped {
+    [self openWebViewWithTitle:@"Privacy Policy" andUrlToLoad:POLICY_URL];
 }
 @end

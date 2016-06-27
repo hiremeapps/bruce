@@ -11,6 +11,7 @@
 #import "Configs.h"
 #import "AuthDataModels.h"
 #import <TSMessages/TSMessage.h>
+#import "WebViewController.h"
 #import <LCLoadingHUD/LCLoadingHUD.h>
 #import "UIColor+Masjidpay.h"
 @interface BaseViewController ()
@@ -55,6 +56,12 @@
         LoginViewController *loginVC = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
         [self presentViewController:loginVC animated:YES completion:nil];
     }
+}
+- (void)openWebViewWithTitle:(NSString *)title andUrlToLoad:(NSString *)url {
+    WebViewController *webview = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+    webview.webviewTitle = title;
+    webview.urlToLoad = url;
+    [self presentViewController:webview animated:YES completion:nil];
 }
 /*
  #pragma mark - Navigation

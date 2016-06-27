@@ -19,17 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Dashboard";
-    if (![AuthResponse userIsLoggedIn]) {
-        return;
-    }
-    NSString *dasboardUri = [NSString stringWithFormat:@"%@/kiosk/dashboard/%@",BASE_PAYMENT_URL,[[NSUserDefaults standardUserDefaults] objectForKey:PREFS_CREDENTIALS_USER_ID]];
-    NSURL *url = [NSURL URLWithString:dasboardUri];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    self.webview.delegate = self; // Here is the key
-    [self.webview loadRequest:requestObj];
-    
     // Do any additional setup after loading the view.
 }
+
 - (void)webViewDidStartLoad:(UIWebView *)webView {
     [self showLoading];
 }
@@ -41,6 +33,15 @@
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:YES];
+    if (![AuthResponse userIsLoggedIn]) {
+        return;
+    }
+    NSString *dasboardUri = [NSString stringWithFormat:@"%@/kiosk/dashboard/%@",BASE_PAYMENT_URL,[[NSUserDefaults standardUserDefaults] objectForKey:PREFS_CREDENTIALS_USER_ID]];
+    NSURL *url = [NSURL URLWithString:dasboardUri];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    self.webview.delegate = self; // Here is the key
+    [self.webview loadRequest:requestObj];
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "Configs.h"
 #import "UIColor+Masjidpay.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 #import <AFNetworkActivityLogger/AFNetworkActivityLogger.h>
 @interface AppDelegate ()
 
@@ -25,6 +28,7 @@
     [[UINavigationBar appearance] setBackgroundImage:[UIImage new]
                                       forBarPosition:UIBarPositionAny
                                           barMetrics:UIBarMetricsDefault];
+    [Fabric with:@[[Crashlytics class]]];
     
     [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
     

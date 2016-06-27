@@ -23,6 +23,9 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Crashlytics (3.7.2):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
   - HexColors (2.2.1)
   - IQKeyboardManager (4.0.4)
   - JFBCrypt (0.1)
@@ -34,6 +37,8 @@ PODS:
 DEPENDENCIES:
   - AFNetworkActivityLogger (~> 2.0)
   - AFNetworking (~> 2.5)
+  - Crashlytics (~> 3.7)
+  - Fabric (~> 1.6)
   - IQKeyboardManager (~> 4.0)
   - JFBCrypt (~> 0.1)
   - LCLoadingHUD
@@ -43,6 +48,8 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Crashlytics: 130ab943f8c78cda7a814b434f270b2e2c8a3cba
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
   IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
   JFBCrypt: b5333bb2ff2bc80dc370ac332dfbcefc41720dee
@@ -50,6 +57,6 @@ SPEC CHECKSUMS:
   TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
   UIImage-Helpers: 06b04a42bdd222844035602e87e936765c80f620
 
-PODFILE CHECKSUM: f2b6199935f847cd55dea11ae6e64fd4c3dea0af
+PODFILE CHECKSUM: 1ef8b2d1143a8962501391499f14a3f6ab338cd7
 
 COCOAPODS: 1.0.1
