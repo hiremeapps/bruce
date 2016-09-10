@@ -222,6 +222,7 @@
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
     if (textField == self.amountTextField) {
         [self clearAllState];
+        self.amountTextField.text = @"";
         if (![self validAmount]) {
             self.amount = @"";
             self.amountTextField.text = @"";
