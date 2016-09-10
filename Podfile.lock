@@ -30,6 +30,9 @@ PODS:
   - IQKeyboardManager (4.0.4)
   - JFBCrypt (0.1)
   - LCLoadingHUD (1.0.6)
+  - Mixpanel (3.0.3):
+    - Mixpanel/Mixpanel (= 3.0.3)
+  - Mixpanel/Mixpanel (3.0.3)
   - TSMessages (0.9.12):
     - HexColors (~> 2.2.0)
   - UIImage-Helpers (0.0.3)
@@ -42,6 +45,7 @@ DEPENDENCIES:
   - IQKeyboardManager (~> 4.0)
   - JFBCrypt (~> 0.1)
   - LCLoadingHUD
+  - Mixpanel
   - TSMessages
   - UIImage-Helpers
 
@@ -54,9 +58,10 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
   JFBCrypt: b5333bb2ff2bc80dc370ac332dfbcefc41720dee
   LCLoadingHUD: 8b20d4c10d47c3d4a64978cb966532788c183588
+  Mixpanel: 45867daeaa3c60f88072a3cb1b44e0b6c5cec009
   TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
   UIImage-Helpers: 06b04a42bdd222844035602e87e936765c80f620
 
-PODFILE CHECKSUM: 1ef8b2d1143a8962501391499f14a3f6ab338cd7
+PODFILE CHECKSUM: 5c82b4e70cbfa66d21ade3f7fbe53645cd85d02b
 
 COCOAPODS: 1.0.1

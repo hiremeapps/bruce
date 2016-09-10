@@ -219,6 +219,15 @@
         
     }
 }
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    if (textField == self.amountTextField) {
+        [self clearAllState];
+        if (![self validAmount]) {
+            self.amount = @"";
+            self.amountTextField.text = @"";
+        }
+    }
+}
 - (void)textFieldDidEndEditing:(UITextField *)textField {
     if (textField == self.amountTextField) {
         self.amount = textField.text;
@@ -280,7 +289,7 @@
         return NO;
     }
     else if ([cleanAmount integerValue] < 1) {
-        self.amountTextField.errorMessage = @"Must be greater than USD 1";
+        self.amountTextField.errorMessage = @"Must be greater than $1";
         [self.amountTextField showErrorBubble];
         return NO;
     }
@@ -330,8 +339,8 @@
         [parameters setObject:[[NSUserDefaults standardUserDefaults] objectForKey:PREFS_CREDENTIALS_USER_ID] forKey:@"submerchantId"];
         [parameters setObject:self.emailTextField.text forKey:@"email"];
         [parameters setObject:self.paymentType.dataIdentifier forKey:@"paymentType"];
-        [parameters setObject:self.remarkTextField.text.length?self.remarkTextField.text:@"-" forKey:@"remark"];
-        [parameters setObject:self.nameTextField.text.length?self.nameTextField.text:@"-" forKey:@"name"];
+        [parameters setObject:self.remarkTextField.text.length ? self.remarkTextField.text:@"-" forKey:@"remark"];
+        [parameters setObject:self.nameTextField.text.length ? self.nameTextField.text:@"-" forKey:@"name"];
         [parameters setObject:@"KIOSK" forKey:@"source"];
         //[[ExternalTrackingManager sharedInstance] logEvent:ACTION_MASJID_DONATION withProperties:parameters];
         if ([self.paymentSelectionTextField.text isEqualToString:@"Project"]) {

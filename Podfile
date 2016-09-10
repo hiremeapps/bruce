@@ -6,6 +6,7 @@ target 'Masjidpay Kiosk' do
     pod 'IQKeyboardManager', '~> 4.0'
     pod 'AFNetworkActivityLogger', '~> 2.0'
     pod "TSMessages"
+    pod 'Mixpanel'
     pod 'Fabric', '~> 1.6'
     pod 'Crashlytics', '~> 3.7'
     pod 'UIImage-Helpers'

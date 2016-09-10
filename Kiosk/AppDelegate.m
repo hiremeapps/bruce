@@ -11,7 +11,7 @@
 #import "UIColor+Masjidpay.h"
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
-
+#import <Mixpanel/Mixpanel.h>
 #import <AFNetworkActivityLogger/AFNetworkActivityLogger.h>
 @interface AppDelegate ()
 
@@ -22,6 +22,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //Change navigation bar appearance
+    [Mixpanel sharedInstanceWithToken:MIXPANEL_TOKEN];
+    [[Mixpanel sharedInstance] track:@"KIOSK ACTIVATED"];
+    
     [[UINavigationBar appearance] setBarTintColor:[UIColor mp_greenColor]];
     
     // to remove 1 px border below nav bar
